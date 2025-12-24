@@ -7,8 +7,10 @@ type Props = {
   box?: boolean;
 };
 
+const base = import.meta.env.BASE_URL;
+
 export default function Icon({ icon_type, id, title = "", box = true }: Props) {
-  const source = `/icons/${icon_type}/${id}.png`;
+  const source = `${base}icons/${icon_type}/${id}.png`;
 
   return (
     <span className={`container ${box ? "boxed" : ""}`} title={title}>
