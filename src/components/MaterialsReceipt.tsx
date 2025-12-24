@@ -86,6 +86,12 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
     return aName.localeCompare(bName);
   });
 
+  const totalXp = perArtefact.reduce((sum, line) => {
+    const artefact = artefact_data.artefacts[line.artefactId];
+    const xp = artefact?.xp ?? 0;
+    return sum + xp * line.qty;
+  }, 0);
+
   return (
     <div className="receipt">
       <div className="receipt-header">
@@ -100,7 +106,10 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
       </div>
 
       <div className="receipt-total-box">
-        <div className="receipt-total-heading">TOTAL</div>
+        <div className="receipt-total-heading">
+          <span>TOTAL</span>
+          {selected.length > 0 && <span className="receipt-total-xp">{totalXp.toLocaleString()} xp</span>}
+        </div>
 
         {selected.length === 0 ? (
           <div className="receipt-empty">No artefacts selected yet.</div>

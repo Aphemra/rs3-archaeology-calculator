@@ -49,11 +49,23 @@
 }
 
 .receipt-total-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
   font-weight: 800;
   letter-spacing: 0.08em;
   font-size: 12px;
   opacity: 0.85;
   margin-bottom: 8px;
+}
+
+.receipt-total-xp {
+  font-family: monospace;
+  letter-spacing: normal;
+  opacity: 0.9;
+  white-space: nowrap;
 }
 
 .receipt-empty {
