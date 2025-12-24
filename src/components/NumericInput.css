@@ -1,0 +1,73 @@
+.num {
+  display: inline-flex;
+  align-items: stretch;
+
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  overflow: hidden;
+}
+
+.num[data-disabled="true"] {
+  opacity: 0.65;
+}
+
+.num-input {
+  width: 50px;
+  padding: 6px 10px;
+
+  border: none;
+  outline: none;
+
+  background: rgba(0, 0, 0, 0.25);
+  color: inherit;
+
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+.num-stepper {
+  display: flex;
+  flex-direction: column;
+
+  width: 22px;
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.num-button {
+  padding: 0;
+  margin: 0;
+
+  border: 0;
+  background: transparent;
+  color: inherit;
+
+  cursor: pointer;
+  user-select: none;
+
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 10px;
+  line-height: 1;
+}
+
+.num-button:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.num-button:active {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.num-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

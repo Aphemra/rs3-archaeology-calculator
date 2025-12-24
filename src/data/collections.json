@@ -1,0 +1,1200 @@
+{
+  "collections": {
+    "museum_training_weapons": {
+      "id": "museum_training_weapons",
+      "name": "Museum - Training weapons",
+      "level": 1,
+      "chronote_reward": 1000,
+      "collector_id": "velucia",
+      "one-time-reward": ["The Mortal Cup"],
+      "recurring_reward": [],
+      "artefacts_required": ["centurions_dress_sword"]
+    },
+
+    "museum_zarosian_i": {
+      "id": "museum_zarosian_i",
+      "name": "Museum - Zarosian I",
+      "level": 25,
+      "chronote_reward": 2635,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "venator_dagger",
+        "venator_light_crossbow",
+        "primis_elementis_standard",
+        "legionary_gladius",
+        "legionary_square_shield",
+        "zaros_effigy",
+        "zarosian_training_dummy",
+        "legatus_maximus_figurine",
+        "solem_in_umbra_painting"
+      ]
+    },
+
+    "zarosian_i": {
+      "id": "zarosian_i",
+      "name": "Zarosian I",
+      "level": 25,
+      "chronote_reward": 2108,
+      "collector_id": "soran",
+      "one-time-reward": ["Seal of the Praefectus Praetorio"],
+      "recurring_reward": ["20x Pylon batteries"],
+      "artefacts_required": [
+        "venator_dagger",
+        "venator_light_crossbow",
+        "primis_elementis_standard",
+        "legionary_gladius",
+        "legionary_square_shield",
+        "zaros_effigy",
+        "zarosian_training_dummy",
+        "legatus_maximus_figurine",
+        "solem_in_umbra_painting"
+      ]
+    },
+
+    "museum_zamorakian_i": {
+      "id": "museum_zamorakian_i",
+      "name": "Museum - Zamorakian I",
+      "level": 36,
+      "chronote_reward": 3242,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "hookah_pipe",
+        "opulent_wine_goblet",
+        "crest_of_dagon",
+        "disorder_painting",
+        "imp_mask",
+        "lesser_demon_mask",
+        "greater_demon_mask",
+        "order_of_dis_robes",
+        "ritual_dagger"
+      ]
+    },
+
+    "zamorakian_i": {
+      "id": "zamorakian_i",
+      "name": "Zamorakian I",
+      "level": 36,
+      "chronote_reward": 2594,
+      "collector_id": "isaura",
+      "one-time-reward": ["Abyssal thread"],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "hookah_pipe",
+        "opulent_wine_goblet",
+        "crest_of_dagon",
+        "disorder_painting",
+        "imp_mask",
+        "lesser_demon_mask",
+        "greater_demon_mask",
+        "order_of_dis_robes",
+        "ritual_dagger"
+      ]
+    },
+
+    "museum_saradominist_i": {
+      "id": "museum_saradominist_i",
+      "name": "Museum - Saradominist I",
+      "level": 56,
+      "chronote_reward": 4997,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "frying_pan",
+        "hallowed_lantern",
+        "ceremonial_unicorn_ornament",
+        "ceremonial_unicorn_saddle",
+        "everlight_harp",
+        "everlight_trumpet",
+        "everlight_violin",
+        "folded_arm_figurine_female",
+        "folded_arm_figurine_male"
+      ]
+    },
+
+    "saradominist_i": {
+      "id": "saradominist_i",
+      "name": "Saradominist I",
+      "level": 56,
+      "chronote_reward": 3998,
+      "collector_id": "sir_atcha",
+      "one-time-reward": ["Lock of hair"],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "frying_pan",
+        "hallowed_lantern",
+        "ceremonial_unicorn_ornament",
+        "ceremonial_unicorn_saddle",
+        "everlight_harp",
+        "everlight_trumpet",
+        "everlight_violin",
+        "folded_arm_figurine_female",
+        "folded_arm_figurine_male"
+      ]
+    },
+
+    "museum_zarosian_v": {
+      "id": "museum_zarosian_v",
+      "name": "Museum - Zarosian V",
+      "level": 62,
+      "chronote_reward": 4117,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["apex_cap", "curse_tablet", "funerary_urn_of_shadow", "infula_robes", "funerary_urn_of_smoke", "hand_of_the_ancients"]
+    },
+
+    "museum_zarosian_vi": {
+      "id": "museum_zarosian_vi",
+      "name": "Museum - Zarosian VI",
+      "level": 64,
+      "chronote_reward": 4207,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "decorative_amphora",
+        "funerary_urn_of_ice",
+        "loarnab_rod",
+        "inquisitors_ceremonial_armour",
+        "inquisitors_ceremonial_mask",
+        "inquisitors_seal"
+      ]
+    },
+
+    "finery_of_the_inquisition": {
+      "id": "finery_of_the_inquisition",
+      "name": "Finery of the Inquisition",
+      "level": 64,
+      "chronote_reward": 1686,
+      "collector_id": "eblis",
+      "one-time-reward": ["A random tier 2 Elder Trove"],
+      "recurring_reward": [],
+      "artefacts_required": ["inquisitors_ceremonial_armour", "inquisitors_ceremonial_mask", "inquisitors_seal"]
+    },
+
+    "museum_zarosian_vii": {
+      "id": "museum_zarosian_vii",
+      "name": "Museum - Zarosian VII",
+      "level": 67,
+      "chronote_reward": 4357,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "gladiator_helmet",
+        "gladiator_sword",
+        "funerary_urn_of_blood",
+        "funerary_urn_of_miasma",
+        "model_chariot",
+        "the_serpents_fall_carving"
+      ]
+    },
+
+    "entertaining_the_masses": {
+      "id": "entertaining_the_masses",
+      "name": "Entertaining the Masses",
+      "level": 67,
+      "chronote_reward": 2302,
+      "collector_id": "eblis",
+      "one-time-reward": ["A random tier 2 Elder Trove"],
+      "recurring_reward": [],
+      "artefacts_required": ["decorative_amphora", "gladiator_helmet", "gladiator_sword", "model_chariot"]
+    },
+
+    "religious_iconography": {
+      "id": "religious_iconography",
+      "name": "Religious Iconography",
+      "level": 67,
+      "chronote_reward": 2240,
+      "collector_id": "eblis",
+      "one-time-reward": ["A random tier 2 Elder Trove"],
+      "recurring_reward": [],
+      "artefacts_required": ["apex_cap", "infula_robes", "loarnab_rod", "the_serpents_fall_carving"]
+    },
+
+    "urns_of_the_empire": {
+      "id": "urns_of_the_empire",
+      "name": "Urns of the Empire",
+      "level": 67,
+      "chronote_reward": 2820,
+      "collector_id": "eblis",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "funerary_urn_of_shadow",
+        "funerary_urn_of_smoke",
+        "funerary_urn_of_ice",
+        "funerary_urn_of_blood",
+        "funerary_urn_of_miasma"
+      ]
+    },
+
+    "blingy_fings": {
+      "id": "blingy_fings",
+      "name": "Blingy Fings",
+      "level": 69,
+      "chronote_reward": 2484,
+      "collector_id": "chief_tess",
+      "one-time-reward": [],
+      "recurring_reward": ["20x Robust glass"],
+      "artefacts_required": ["ancient_timepiece", "legatus_pendant", "pontifex_signet_ring", "bronze_dominion_medal", "silver_dominion_medal"]
+    },
+
+    "museum_saradominist_ii": {
+      "id": "museum_saradominist_ii",
+      "name": "Museum - Saradominist II",
+      "level": 72,
+      "chronote_reward": 6502,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "dominion_discus",
+        "dominion_javelin",
+        "dominion_pelte_shield",
+        "bronze_dominion_medal",
+        "silver_dominion_medal",
+        "dominion_torch",
+        "decorative_vase",
+        "kantharos_cup",
+        "patera_bowl"
+      ]
+    },
+
+    "saradominist_ii": {
+      "id": "saradominist_ii",
+      "name": "Saradominist II",
+      "level": 72,
+      "chronote_reward": 5202,
+      "collector_id": "sir_atcha",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "dominion_discus",
+        "dominion_javelin",
+        "dominion_pelte_shield",
+        "bronze_dominion_medal",
+        "silver_dominion_medal",
+        "dominion_torch",
+        "decorative_vase",
+        "kantharos_cup",
+        "patera_bowl"
+      ]
+    },
+
+    "dragonkin_v": {
+      "id": "dragonkin_v",
+      "name": "Dragonkin V",
+      "level": 77,
+      "chronote_reward": 2532,
+      "collector_id": "sharrigan",
+      "one-time-reward": [],
+      "recurring_reward": ["2x large dungeoneering token boxes"],
+      "artefacts_required": ["castle_gatestone", "engraved_ring_of_kinship", "exploratory_totem", "excavator_portal_mine"]
+    },
+
+    "museum_dragonkin_v": {
+      "id": "museum_dragonkin_v",
+      "name": "Museum - Dragonkin V",
+      "level": 77,
+      "chronote_reward": 3165,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["castle_gatestone", "engraved_ring_of_kinship", "exploratory_totem", "excavator_portal_mine"]
+    },
+
+    "museum_zarosian_ii": {
+      "id": "museum_zarosian_ii",
+      "name": "Museum - Zarosian II",
+      "level": 81,
+      "chronote_reward": 7165,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "ancient_timepiece",
+        "legatus_pendant",
+        "incite_fear_spell_scroll",
+        "pontifex_signet_ring",
+        "ceremonial_mace",
+        "pontifex_maximus_figurine",
+        "consensus_ad_idem_painting",
+        "pontifex_censer",
+        "pontifex_crozier",
+        "pontifex_mitre"
+      ]
+    },
+
+    "museum_zamorakian_ii": {
+      "id": "museum_zamorakian_ii",
+      "name": "Museum - Zamorakian II",
+      "level": 81,
+      "chronote_reward": 6432,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "branding_iron",
+        "manacles",
+        "the_lake_of_fire_painting",
+        "lust_metal_sculpture",
+        "chaos_star",
+        "spiked_dog_collar",
+        "larupia_trophy",
+        "lion_trophy",
+        "she_wolf_trophy"
+      ]
+    },
+
+    "museum_armadylean_i": {
+      "id": "museum_armadylean_i",
+      "name": "Museum - Armadylean I",
+      "level": 81,
+      "chronote_reward": 7110,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "ikovian_gerege",
+        "toy_glider",
+        "toy_war_golem",
+        "avian_song_egg_player",
+        "keshik_drum",
+        "morin_khuur",
+        "aviansie_dreamcoat",
+        "ceremonial_plume",
+        "peacocking_parasol"
+      ]
+    },
+
+    "smoky_fings": {
+      "id": "smoky_fings",
+      "name": "Smoky Fings",
+      "level": 81,
+      "chronote_reward": 2204,
+      "collector_id": "chief_tess",
+      "one-time-reward": ["Oo'glog Wellspring"],
+      "recurring_reward": ["40x Robust glass"],
+      "artefacts_required": ["hookah_pipe", "opulent_wine_goblet", "everlight_trumpet", "dominion_torch", "pontifex_censer"]
+    },
+
+    "zarosian_ii": {
+      "id": "zarosian_ii",
+      "name": "Zarosian II",
+      "level": 81,
+      "chronote_reward": 5732,
+      "collector_id": "soran",
+      "one-time-reward": [],
+      "recurring_reward": ["50x Pylon batteries"],
+      "artefacts_required": [
+        "ancient_timepiece",
+        "legatus_pendant",
+        "incite_fear_spell_scroll",
+        "pontifex_signet_ring",
+        "ceremonial_mace",
+        "pontifex_maximus_figurine",
+        "consensus_ad_idem_painting",
+        "pontifex_censer",
+        "pontifex_crozier",
+        "pontifex_mitre"
+      ]
+    },
+
+    "zamorakian_ii": {
+      "id": "zamorakian_ii",
+      "name": "Zamorakian II",
+      "level": 81,
+      "chronote_reward": 5146,
+      "collector_id": "isaura",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "branding_iron",
+        "manacles",
+        "the_lake_of_fire_painting",
+        "lust_metal_sculpture",
+        "chaos_star",
+        "spiked_dog_collar",
+        "larupia_trophy",
+        "lion_trophy",
+        "she_wolf_trophy"
+      ]
+    },
+
+    "armadylean_i": {
+      "id": "armadylean_i",
+      "name": "Armadylean I",
+      "level": 81,
+      "chronote_reward": 5688,
+      "collector_id": "lowse",
+      "one-time-reward": ["King Oberon's moonshroom spores"],
+      "recurring_reward": ["50x torn blueprint fragments (Howl's workshop)"],
+      "artefacts_required": [
+        "ikovian_gerege",
+        "toy_glider",
+        "toy_war_golem",
+        "avian_song_egg_player",
+        "keshik_drum",
+        "morin_khuur",
+        "aviansie_dreamcoat",
+        "ceremonial_plume",
+        "peacocking_parasol"
+      ]
+    },
+
+    "green_gobbo_goodies_i": {
+      "id": "green_gobbo_goodies_i",
+      "name": "Green Gobbo Goodies I",
+      "level": 83,
+      "chronote_reward": 3252,
+      "collector_id": "general_wartface",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "ekeleshuun_blinder_mask",
+        "narogoshuun_hob_da_gob_ball",
+        "rekeshuun_war_tether",
+        "thorobshuun_battle_standard",
+        "yurkolgokh_stink_grenade"
+      ]
+    },
+
+    "dragonkin_vi": {
+      "id": "dragonkin_vi",
+      "name": "Dragonkin VI",
+      "level": 87,
+      "chronote_reward": 4056,
+      "collector_id": "sharrigan",
+      "one-time-reward": ["Pastkeeper's tapestry"],
+      "recurring_reward": ["Dungeoneering Wildcard", "2x large dungeoneering token boxes"],
+      "artefacts_required": ["storage_totem", "plant_seed_satchel", "snuff_box", "spent_summoning_charm", "friendship_bracelet", "homely_totem"]
+    },
+
+    "museum_dragonkin_vi": {
+      "id": "museum_dragonkin_vi",
+      "name": "Museum - Dragonkin VI",
+      "level": 87,
+      "chronote_reward": 5070,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["storage_totem", "plant_seed_satchel", "snuff_box", "spent_summoning_charm", "friendship_bracelet", "homely_totem"]
+    },
+
+    "anarchic_abstraction": {
+      "id": "anarchic_abstraction",
+      "name": "Anarchic Abstraction",
+      "level": 89,
+      "chronote_reward": 1574,
+      "collector_id": "jacques",
+      "one-time-reward": ["Replica Zamorakian art"],
+      "recurring_reward": [],
+      "artefacts_required": ["disorder_painting", "the_lake_of_fire_painting", "pandemonium_tapestry"]
+    },
+
+    "museum_bandosian_i": {
+      "id": "museum_bandosian_i",
+      "name": "Museum - Bandosian I",
+      "level": 89,
+      "chronote_reward": 8445,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "ekeleshuun_blinder_mask",
+        "narogoshuun_hob_da_gob_ball",
+        "rekeshuun_war_tether",
+        "ogre_kyzaj_axe",
+        "ork_cleaver_sword",
+        "thorobshuun_battle_standard",
+        "yurkolgokh_stink_grenade",
+        "high_priest_crozier",
+        "high_priest_mitre",
+        "high_priest_orb"
+      ]
+    },
+
+    "hitty_fings": {
+      "id": "hitty_fings",
+      "name": "Hitty Fings",
+      "level": 89,
+      "chronote_reward": 5136,
+      "collector_id": "chief_tess",
+      "one-time-reward": [],
+      "recurring_reward": ["40x Robust glass"],
+      "artefacts_required": ["ceremonial_mace", "pontifex_crozier", "fishing_trident", "high_priest_crozier", "high_priest_orb"]
+    },
+
+    "desperate_for_artefacts": {
+      "id": "desperate_for_artefacts",
+      "name": "Desperate for Artefacts",
+      "level": 90,
+      "chronote_reward": 1335,
+      "collector_id": "giles",
+      "one-time-reward": ["Cosmic pyramid"],
+      "recurring_reward": [],
+      "artefacts_required": ["ceremonial_dragonkin_device", "ceremonial_dragonkin_tablet"]
+    },
+
+    "wise_am_the_music_man": {
+      "id": "wise_am_the_music_man",
+      "name": "Wise Am the Music Man",
+      "level": 91,
+      "chronote_reward": 4024,
+      "collector_id": "wise_old_man",
+      "one-time-reward": ["Koschei's needle"],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "everlight_harp",
+        "everlight_trumpet",
+        "everlight_violin",
+        "avian_song_egg_player",
+        "keshik_drum",
+        "morin_khuur",
+        "songbird_recorder"
+      ]
+    },
+
+    "showy_fings": {
+      "id": "showy_fings",
+      "name": "Showy Fings",
+      "level": 92,
+      "chronote_reward": 3158,
+      "collector_id": "chief_tess",
+      "one-time-reward": [],
+      "recurring_reward": ["40x Robust glass"],
+      "artefacts_required": [
+        "crest_of_dagon",
+        "legatus_maximus_figurine",
+        "lust_metal_sculpture",
+        "pontifex_maximus_figurine",
+        "ceremonial_plume",
+        "rod_of_asclepius"
+      ]
+    },
+
+    "red_rum_relics_i": {
+      "id": "red_rum_relics_i",
+      "name": "Red Rum Relics I",
+      "level": 94,
+      "chronote_reward": 2884,
+      "collector_id": "general_bentnoze",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": ["ork_cleaver_sword", "ogre_kyzaj_axe", "beastkeeper_helm", "nosorog_sculpture"]
+    },
+
+    "green_gobbo_goodies_ii": {
+      "id": "green_gobbo_goodies_ii",
+      "name": "Green Gobbo Goodies II",
+      "level": 97,
+      "chronote_reward": 3758,
+      "collector_id": "general_wartface",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": ["high_priest_crozier", "high_priest_mitre", "high_priest_orb", "idithuun_horn_ring", "garagorshuun_anchor"]
+    },
+
+    "museum_armadylean_ii": {
+      "id": "museum_armadylean_ii",
+      "name": "Museum - Armadylean II",
+      "level": 98,
+      "chronote_reward": 7585,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "hawkeye_lens_multi_vision_scope",
+        "talon_3_razor_wing",
+        "prototype_gravimeter",
+        "songbird_recorder",
+        "dayguard_shield",
+        "stormguard_gerege",
+        "golem_heart",
+        "golem_instruction"
+      ]
+    },
+
+    "armadylean_ii": {
+      "id": "armadylean_ii",
+      "name": "Armadylean II",
+      "level": 98,
+      "chronote_reward": 6068,
+      "collector_id": "lowse",
+      "one-time-reward": [],
+      "recurring_reward": ["75x torn blueprint fragments (Howl's workshop)"],
+      "artefacts_required": [
+        "hawkeye_lens_multi_vision_scope",
+        "talon_3_razor_wing",
+        "prototype_gravimeter",
+        "songbird_recorder",
+        "dayguard_shield",
+        "stormguard_gerege",
+        "golem_heart",
+        "golem_instruction"
+      ]
+    },
+
+    "dragonkin_i": {
+      "id": "dragonkin_i",
+      "name": "Dragonkin I",
+      "level": 99,
+      "chronote_reward": 5524,
+      "collector_id": "sharrigan",
+      "one-time-reward": [],
+      "recurring_reward": ["6x Anachronia resource packs"],
+      "artefacts_required": ["pasaha", "ritual_bell", "kilaya", "vazara", "death_mask", "dragonkin_calendar", "dragonkin_staff"]
+    },
+
+    "museum_dragonkin_i": {
+      "id": "museum_dragonkin_i",
+      "name": "Museum - Dragonkin I",
+      "level": 99,
+      "chronote_reward": 6905,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["pasaha", "ritual_bell", "kilaya", "vazara", "death_mask", "dragonkin_calendar", "dragonkin_staff"]
+    },
+
+    "museum_saradominist_iii": {
+      "id": "museum_saradominist_iii",
+      "name": "Museum - Saradominist III",
+      "level": 100,
+      "chronote_reward": 5685,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["dominarian_device", "fishing_trident", "amphora", "rod_of_asclepius", "kopis_dagger", "xiphos_short_sword"]
+    },
+
+    "museum_bandosian_ii": {
+      "id": "museum_bandosian_ii",
+      "name": "Museum - Bandosian II",
+      "level": 100,
+      "chronote_reward": 8057,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "beastkeeper_helm",
+        "idithuun_horn_ring",
+        "nosorog_sculpture",
+        "ourg_megahitter",
+        "ourg_tower_goblin_cower_shield",
+        "garagorshuun_anchor",
+        "dorgeshuun_spear",
+        "forged_in_war_sculpture"
+      ]
+    },
+
+    "saradominist_iii": {
+      "id": "saradominist_iii",
+      "name": "Saradominist III",
+      "level": 100,
+      "chronote_reward": 4548,
+      "collector_id": "sir_atcha",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": ["dominarian_device", "fishing_trident", "amphora", "rod_of_asclepius", "kopis_dagger", "xiphos_short_sword"]
+    },
+
+    "dragonkin_ii": {
+      "id": "dragonkin_ii",
+      "name": "Dragonkin II",
+      "level": 102,
+      "chronote_reward": 3444,
+      "collector_id": "sharrigan",
+      "one-time-reward": [],
+      "recurring_reward": ["75x rex skeleton fragments"],
+      "artefacts_required": ["dragon_scalpel", "protective_goggles", "dragon_burner", "orthenglass_flask"]
+    },
+
+    "museum_dragonkin_ii": {
+      "id": "museum_dragonkin_ii",
+      "name": "Museum - Dragonkin II",
+      "level": 102,
+      "chronote_reward": 4305,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["dragon_scalpel", "protective_goggles", "dragon_burner", "orthenglass_flask"]
+    },
+
+    "museum_zamorakian_iii": {
+      "id": "museum_zamorakian_iii",
+      "name": "Museum - Zamorakian III",
+      "level": 104,
+      "chronote_reward": 8260,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "torment_metal_sculpture",
+        "pandemonium_tapestry",
+        "hellfire_haladie",
+        "hellfire_katar",
+        "hellfire_zaghnal",
+        "possession_metal_sculpture",
+        "trishula",
+        "tsutsaroth_piercing"
+      ]
+    },
+
+    "zamorakian_iii": {
+      "id": "zamorakian_iii",
+      "name": "Zamorakian III",
+      "level": 104,
+      "chronote_reward": 6608,
+      "collector_id": "isaura",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "torment_metal_sculpture",
+        "pandemonium_tapestry",
+        "hellfire_haladie",
+        "hellfire_katar",
+        "hellfire_zaghnal",
+        "possession_metal_sculpture",
+        "trishula",
+        "tsutsaroth_piercing"
+      ]
+    },
+
+    "radiant_renaissance": {
+      "id": "radiant_renaissance",
+      "name": "Radiant Renaissance",
+      "level": 105,
+      "chronote_reward": 2730,
+      "collector_id": "jacques",
+      "one-time-reward": ["Replica Saradominist art"],
+      "recurring_reward": [],
+      "artefacts_required": ["hallowed_be_the_everlight_painting", "the_lord_of_light_painting", "the_pride_of_padosan_painting"]
+    },
+
+    "museum_zarosian_iii": {
+      "id": "museum_zarosian_iii",
+      "name": "Museum - Zarosian III",
+      "level": 107,
+      "chronote_reward": 9302,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "exsanguinate_spell_scroll",
+        "necromantic_focus",
+        "zarosian_ewer",
+        "zarosian_stein",
+        "smoke_cloud_spell_scroll",
+        "vigorem_vial",
+        "ancient_magic_tablet",
+        "animate_dead_spell_scroll",
+        "portable_phylactery"
+      ]
+    },
+
+    "zarosian_iii": {
+      "id": "zarosian_iii",
+      "name": "Zarosian III",
+      "level": 107,
+      "chronote_reward": 7442,
+      "collector_id": "soran",
+      "one-time-reward": [],
+      "recurring_reward": ["100x Pylon batteries"],
+      "artefacts_required": [
+        "exsanguinate_spell_scroll",
+        "necromantic_focus",
+        "zarosian_ewer",
+        "zarosian_stein",
+        "smoke_cloud_spell_scroll",
+        "vigorem_vial",
+        "ancient_magic_tablet",
+        "animate_dead_spell_scroll",
+        "portable_phylactery"
+      ]
+    },
+
+    "imperial_sorcery": {
+      "id": "imperial_sorcery",
+      "name": "Imperial Sorcery",
+      "level": 107,
+      "chronote_reward": 5742,
+      "collector_id": "eblis",
+      "one-time-reward": ["A random tier 2 Elder Trove"],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "incite_fear_spell_scroll",
+        "curse_tablet",
+        "hand_of_the_ancients",
+        "exsanguinate_spell_scroll",
+        "necromantic_focus",
+        "smoke_cloud_spell_scroll",
+        "ancient_magic_tablet",
+        "animate_dead_spell_scroll"
+      ]
+    },
+
+    "dragonkin_iii": {
+      "id": "dragonkin_iii",
+      "name": "Dragonkin III",
+      "level": 108,
+      "chronote_reward": 4652,
+      "collector_id": "sharrigan",
+      "one-time-reward": ["Kaladanda"],
+      "recurring_reward": [],
+      "artefacts_required": ["meditation_pipe", "personal_totem", "singing_bowl", "lingam_stone", "master_control"]
+    },
+
+    "museum_dragonkin_iii": {
+      "id": "museum_dragonkin_iii",
+      "name": "Museum - Dragonkin III",
+      "level": 108,
+      "chronote_reward": 5815,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["meditation_pipe", "personal_totem", "singing_bowl", "lingam_stone", "master_control"]
+    },
+
+    "red_rum_relics_ii": {
+      "id": "red_rum_relics_ii",
+      "name": "Red Rum Relics II",
+      "level": 110,
+      "chronote_reward": 3468,
+      "collector_id": "general_bentnoze",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": ["ourg_megahitter", "ourg_tower_goblin_cower_shield", "forged_in_war_sculpture", "hobgoblin_mansticker"]
+    },
+
+    "dragonkin_vii": {
+      "id": "dragonkin_vii",
+      "name": "Dragonkin VII",
+      "level": 113,
+      "chronote_reward": 5772,
+      "collector_id": "sharrigan",
+      "one-time-reward": [],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "projection_attuner",
+        "golden_projection_needle",
+        "comfort_gatestone",
+        "halaks_cube",
+        "portable_portal_generator",
+        "warped_trinket"
+      ]
+    },
+
+    "museum_dragonkin_vii": {
+      "id": "museum_dragonkin_vii",
+      "name": "Museum - Dragonkin VII",
+      "level": 113,
+      "chronote_reward": 7215,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "projection_attuner",
+        "golden_projection_needle",
+        "comfort_gatestone",
+        "halaks_cube",
+        "portable_portal_generator",
+        "warped_trinket"
+      ]
+    },
+
+    "hat_problem": {
+      "id": "hat_problem",
+      "name": "Hat Problem",
+      "level": 114,
+      "chronote_reward": 6775,
+      "collector_id": "wise_old_man",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "imp_mask",
+        "ekeleshuun_blinder_mask",
+        "high_priest_mitre",
+        "beastkeeper_helm",
+        "huzamogaarb_chaos_crown",
+        "flat_cap",
+        "praetorian_hood"
+      ]
+    },
+
+    "museum_zamorakian_iv": {
+      "id": "museum_zamorakian_iv",
+      "name": "Museum - Zamorakian IV",
+      "level": 116,
+      "chronote_reward": 6792,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["chaos_elemental_trophy", "virius_trophy", "tsutsaroth_helm", "tsutsaroth_pauldron", "tsutsaroth_urumi"]
+    },
+
+    "hat_hoarder": {
+      "id": "hat_hoarder",
+      "name": "Hat Hoarder",
+      "level": 116,
+      "chronote_reward": 5995,
+      "collector_id": "wise_old_man",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "lesser_demon_mask",
+        "greater_demon_mask",
+        "ceremonial_unicorn_ornament",
+        "pontifex_mitre",
+        "saragorgak_star_crown",
+        "kalikra_chieftain_crown",
+        "tsutsaroth_helm"
+      ]
+    },
+
+    "zamorakian_iv": {
+      "id": "zamorakian_iv",
+      "name": "Zamorakian IV",
+      "level": 116,
+      "chronote_reward": 5434,
+      "collector_id": "isaura",
+      "one-time-reward": ["Ariadne's Diadem"],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": ["chaos_elemental_trophy", "virius_trophy", "tsutsaroth_helm", "tsutsaroth_pauldron", "tsutsaroth_urumi"]
+    },
+
+    "museum_saradominist_iv": {
+      "id": "museum_saradominist_iv",
+      "name": "Museum - Saradominist IV",
+      "level": 117,
+      "chronote_reward": 8777,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "hallowed_be_the_everlight_painting",
+        "the_lord_of_light_painting",
+        "the_pride_of_padosan_painting",
+        "the_enlightened_soul_scroll",
+        "the_eudoxian_elements_tablet",
+        "doru_spear",
+        "kontos_lance"
+      ]
+    },
+
+    "saradominist_iv": {
+      "id": "saradominist_iv",
+      "name": "Saradominist IV",
+      "level": 117,
+      "chronote_reward": 7022,
+      "collector_id": "sir_atcha",
+      "one-time-reward": ["Petasos"],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "hallowed_be_the_everlight_painting",
+        "the_lord_of_light_painting",
+        "the_pride_of_padosan_painting",
+        "the_enlightened_soul_scroll",
+        "the_eudoxian_elements_tablet",
+        "doru_spear",
+        "kontos_lance"
+      ]
+    },
+
+    "museum_zarosian_iv": {
+      "id": "museum_zarosian_iv",
+      "name": "Museum - Zarosian IV",
+      "level": 118,
+      "chronote_reward": 8512,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["praetorian_hood", "praetorian_robes", "praetorian_staff", "ancient_globe", "battle_plans", "prima_legio_painting"]
+    },
+
+    "museum_armadylean_iii": {
+      "id": "museum_armadylean_iii",
+      "name": "Museum - Armadylean III",
+      "level": 118,
+      "chronote_reward": 13085,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "blackfire_lance",
+        "nightguard_shield",
+        "flat_cap",
+        "night_owl_flight_goggles",
+        "prototype_godbow",
+        "prototype_godstaff",
+        "prototype_godsword",
+        "chuluu_stone",
+        "quintessence_counter",
+        "spherical_astrolabe"
+      ]
+    },
+
+    "imperial_impressionism": {
+      "id": "imperial_impressionism",
+      "name": "Imperial Impressionism",
+      "level": 118,
+      "chronote_reward": 2086,
+      "collector_id": "jacques",
+      "one-time-reward": ["Replica Zarosian art"],
+      "recurring_reward": [],
+      "artefacts_required": ["solem_in_umbra_painting", "consensus_ad_idem_painting", "prima_legio_painting"]
+    },
+
+    "magic_man": {
+      "id": "magic_man",
+      "name": "Magic Man",
+      "level": 118,
+      "chronote_reward": 8600,
+      "collector_id": "wise_old_man",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "legatus_maximus_figurine",
+        "ritual_dagger",
+        "ancient_timepiece",
+        "incite_fear_spell_scroll",
+        "exsanguinate_spell_scroll",
+        "high_priest_mitre",
+        "smoke_cloud_spell_scroll",
+        "animate_dead_spell_scroll",
+        "portable_phylactery",
+        "chuluu_stone"
+      ]
+    },
+
+    "zarosian_iv": {
+      "id": "zarosian_iv",
+      "name": "Zarosian IV",
+      "level": 118,
+      "chronote_reward": 6810,
+      "collector_id": "soran",
+      "one-time-reward": ["Inquisitor staff piece"],
+      "recurring_reward": ["100x Pylon batteries"],
+      "artefacts_required": ["praetorian_hood", "praetorian_robes", "praetorian_staff", "ancient_globe", "battle_plans", "prima_legio_painting"]
+    },
+
+    "armadylean_iii": {
+      "id": "armadylean_iii",
+      "name": "Armadylean III",
+      "level": 118,
+      "chronote_reward": 10468,
+      "collector_id": "lowse",
+      "one-time-reward": ["Howl's Thinking Cap"],
+      "recurring_reward": ["150x torn blueprint fragments (Howl's workshop)"],
+      "artefacts_required": [
+        "blackfire_lance",
+        "nightguard_shield",
+        "flat_cap",
+        "night_owl_flight_goggles",
+        "prototype_godbow",
+        "prototype_godstaff",
+        "prototype_godsword",
+        "chuluu_stone",
+        "quintessence_counter",
+        "spherical_astrolabe"
+      ]
+    },
+
+    "museum_bandosian_iii": {
+      "id": "museum_bandosian_iii",
+      "name": "Museum - Bandosian III",
+      "level": 119,
+      "chronote_reward": 11925,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "huzamogaarb_chaos_crown",
+        "saragorgak_star_crown",
+        "drogokishuun_hook_sword",
+        "hobgoblin_mansticker",
+        "kalikra_chieftain_crown",
+        "kalikra_mace",
+        "kalikra_warhorn",
+        "da_boss_man_sculpture",
+        "horogothgar_cooking_pot"
+      ]
+    },
+
+    "red_rum_relics_iii": {
+      "id": "red_rum_relics_iii",
+      "name": "Red Rum Relics III",
+      "level": 119,
+      "chronote_reward": 4540,
+      "collector_id": "general_bentnoze",
+      "one-time-reward": ["Helm of Terror (inside)"],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": ["kalikra_chieftain_crown", "kalikra_mace", "kalikra_warhorn", "da_boss_man_sculpture"]
+    },
+
+    "knowledge_is_power": {
+      "id": "knowledge_is_power",
+      "name": "Knowledge is Power",
+      "level": 119,
+      "chronote_reward": 5584,
+      "collector_id": "wise_old_man",
+      "one-time-reward": ["Amascut's Enchanted Gem"],
+      "recurring_reward": [],
+      "artefacts_required": [
+        "crest_of_dagon",
+        "ikovian_gerege",
+        "necromantic_focus",
+        "golem_instruction",
+        "the_enlightened_soul_scroll",
+        "the_eudoxian_elements_tablet",
+        "da_boss_man_sculpture"
+      ]
+    },
+
+    "green_gobbo_goodies_iii": {
+      "id": "green_gobbo_goodies_iii",
+      "name": "Green Gobbo Goodies III",
+      "level": 119,
+      "chronote_reward": 6044,
+      "collector_id": "general_wartface",
+      "one-time-reward": ["Helm of Terror (outside)"],
+      "recurring_reward": ["Tetracompass piece"],
+      "artefacts_required": [
+        "dorgeshuun_spear",
+        "huzamogaarb_chaos_crown",
+        "saragorgak_star_crown",
+        "drogokishuun_hook_sword",
+        "horogothgar_cooking_pot",
+        "da_boss_man_sculpture"
+      ]
+    },
+
+    "dragonkin_iv": {
+      "id": "dragonkin_iv",
+      "name": "Dragonkin IV",
+      "level": 120,
+      "chronote_reward": 6980,
+      "collector_id": "sharrigan",
+      "one-time-reward": [],
+      "recurring_reward": ["150x rex skeleton fragments"],
+      "artefacts_required": ["xolo_hard_hat", "xolo_pickaxe", "xolo_shield", "xolo_spear", "gold_dish", "raksha_idol"]
+    },
+
+    "museum_dragonkin_iv": {
+      "id": "museum_dragonkin_iv",
+      "name": "Museum - Dragonkin IV",
+      "level": 120,
+      "chronote_reward": 8725,
+      "collector_id": "velucia",
+      "one-time-reward": [],
+      "recurring_reward": [],
+      "artefacts_required": ["xolo_hard_hat", "xolo_pickaxe", "xolo_shield", "xolo_spear", "gold_dish", "raksha_idol"]
+    }
+  }
+}

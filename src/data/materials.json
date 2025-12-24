@@ -1,0 +1,568 @@
+{
+  "materials": {
+    "imperial_iron": {
+      "id": "imperial_iron",
+      "name": "Imperial iron",
+      "level": 1,
+      "locations": [{ "location": "archaeology_guild", "requirement": [] }]
+    },
+
+    "purpleheart_wood": {
+      "id": "purpleheart_wood",
+      "name": "Purpleheart wood",
+      "level": 1,
+      "locations": [{ "location": "archaeology_guild", "requirement": [] }]
+    },
+
+    "third_age_iron": {
+      "id": "third_age_iron",
+      "name": "Third Age iron",
+      "level": 5,
+      "locations": [{ "location": "archaeology_guild", "requirement": [] }]
+    },
+
+    "zarosian_insignia": {
+      "id": "zarosian_insignia",
+      "name": "Zarosian insignia",
+      "level": 5,
+      "locations": [
+        { "location": "kharid-et_barracks", "requirement": ["Breaking the Seal mystery"] },
+        { "location": "empty_throne_room_east", "requirement": [] }
+      ]
+    },
+
+    "imperial_steel": {
+      "id": "imperial_steel",
+      "name": "Imperial steel",
+      "level": 12,
+      "locations": [
+        { "location": "empty_throne_room_north", "requirement": [] },
+        { "location": "kharid-et_barracks", "requirement": ["Breaking the Seal mystery"] }
+      ]
+    },
+
+    "samite_silk": {
+      "id": "samite_silk",
+      "name": "Samite silk",
+      "level": 12,
+      "locations": [
+        { "location": "al_kharid_east", "requirement": [] },
+        { "location": "kharid-et_exterior", "requirement": [] }
+      ]
+    },
+
+    "white_oak": {
+      "id": "white_oak",
+      "name": "White oak",
+      "level": 17,
+      "locations": [{ "location": "ice_mountain", "requirement": [] }]
+    },
+
+    "goldrune": {
+      "id": "goldrune",
+      "name": "Goldrune",
+      "level": 20,
+      "locations": [{ "location": "camdozaal_cavern", "requirement": ["Defender of Varrock quest"] }]
+    },
+
+    "orthenglass": {
+      "id": "orthenglass",
+      "name": "Orthenglass",
+      "level": 20,
+      "locations": [{ "location": "anachronia_north", "requirement": ["Anachronia base camp tutorial"] }]
+    },
+
+    "vellum": {
+      "id": "vellum",
+      "name": "Vellum",
+      "level": 24,
+      "locations": [{ "location": "first_tower", "requirement": ["Rune Memories quest"] }]
+    },
+
+    "cadmium_red": {
+      "id": "cadmium_red",
+      "name": "Cadmium red",
+      "level": 24,
+      "locations": [
+        { "location": "first_tower", "requirement": ["Rune Memories quest"] },
+        { "location": "infernal_source_dagon_overlook_southwest", "requirement": ["Embrace the Chaos mystery"] },
+        { "location": "infernal_source_star_lodge_cellar", "requirement": ["20 Archaeology"] }
+      ]
+    },
+
+    "tyrian_purple": {
+      "id": "tyrian_purple",
+      "name": "Tyrian purple",
+      "level": 25,
+      "locations": [
+        { "location": "empty_throne_room_south", "requirement": [] },
+        { "location": "kharid-et_barracks", "requirement": ["Breaking the Seal mystery"] }
+      ]
+    },
+
+    "ancient_vis": {
+      "id": "ancient_vis",
+      "name": "Ancient vis",
+      "level": 25,
+      "locations": [
+        { "location": "kharid-et_culinarum", "requirement": ["Breaking the Seal mystery"] },
+        { "location": "slayer_tower", "requirement": ["Access to Morytania"] }
+      ]
+    },
+
+    "demonhide": {
+      "id": "demonhide",
+      "name": "Demonhide",
+      "level": 29,
+      "locations": [
+        { "location": "infernal_source_the_horrowing_northeast", "requirement": ["Embrace the Chaos mystery"] },
+        {
+          "location": "god_wars_dungeon_zamoraks_fortress_east",
+          "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength", "70 Hitpoints"]
+        }
+      ]
+    },
+
+    "chaotic_brimstone": {
+      "id": "chaotic_brimstone",
+      "name": "Chaotic brimstone",
+      "level": 29,
+      "locations": [
+        { "location": "daemonheim_southwest", "requirement": [] },
+        { "location": "infernal_source_vestibule_of_futility_south", "requirement": ["Embrace the Chaos mystery"] }
+      ]
+    },
+
+    "leather_scraps": {
+      "id": "leather_scraps",
+      "name": "Leather scraps",
+      "level": 29,
+      "locations": [{ "location": "morytania_north", "requirement": [] }]
+    },
+
+    "hellfire_metal": {
+      "id": "hellfire_metal",
+      "name": "Hellfire metal",
+      "level": 36,
+      "locations": [
+        { "location": "infernal_source_dagon_overlook_north", "requirement": ["Embrace the Chaos mystery"] },
+        {
+          "location": "god_wars_dungeon_zamoraks_fortress_north",
+          "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength", "70 Hitpoints"]
+        },
+        { "location": "infernal_source_dungeon_of_disorder", "requirement": ["Eyes in Their Stars mystery"] },
+        { "location": "infernal_source_vestibule_of_futility_northeast", "requirement": ["Embrace the Chaos mystery"] }
+      ]
+    },
+
+    "eye_of_dagon": {
+      "id": "eye_of_dagon",
+      "name": "Eye of Dagon",
+      "level": 36,
+      "locations": [
+        { "location": "daemonheim_southwest", "requirement": [] },
+        { "location": "infernal_source_dungeon_of_disorder", "requirement": ["Eyes in Their Stars mystery"] }
+      ]
+    },
+
+    "white_marble": {
+      "id": "white_marble",
+      "name": "White marble",
+      "level": 42,
+      "locations": [
+        { "location": "everlight_dominion_games_stadium", "requirement": ["42 Archaeology"] },
+        { "location": "first_tower", "requirement": ["Rune Memories quest"] },
+        { "location": "everlight_acropolis", "requirement": ["42 Archaeology"] }
+      ]
+    },
+
+    "keramos": {
+      "id": "keramos",
+      "name": "Keramos",
+      "level": 42,
+      "locations": [
+        { "location": "god_wars_dungeon_saradominist_southeast", "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength"] },
+        { "location": "everlight_mass_grave", "requirement": ["42 Archaeology"] },
+        { "location": "everlight_oikoi", "requirement": ["42 Archaeology"] }
+      ]
+    },
+
+    "cobalt_blue": {
+      "id": "cobalt_blue",
+      "name": "Cobalt blue",
+      "level": 48,
+      "locations": [
+        { "location": "god_wars_dungeon_saradominist_southeast", "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength"] },
+        { "location": "everlight_amphitheatre", "requirement": ["42 Archaeology"] }
+      ]
+    },
+
+    "star_of_saradomin": {
+      "id": "star_of_saradomin",
+      "name": "Star of Saradomin",
+      "level": 51,
+      "locations": [
+        { "location": "barrows_mounds", "requirement": ["Access to Morytania"] },
+        { "location": "everlight_acropolis", "requirement": ["42 Archaeology"] }
+      ]
+    },
+
+    "everlight_silvthril": {
+      "id": "everlight_silvthril",
+      "name": "Everlight silvthril",
+      "level": 51,
+      "locations": [
+        { "location": "barrows_mounds", "requirement": ["Access to Morytania"] },
+        { "location": "everlight_dominion_games_stadium", "requirement": ["42 Archaeology"] }
+      ]
+    },
+
+    "blood_of_orcus": {
+      "id": "blood_of_orcus",
+      "name": "Blood of Orcus",
+      "level": 58,
+      "locations": [
+        { "location": "slayer_tower", "requirement": ["Access to Morytania"] },
+        { "location": "kharid-et_chapel", "requirement": ["Breaking the Seal mystery", "Pontifex signet ring"] }
+      ]
+    },
+
+    "soapstone": {
+      "id": "soapstone",
+      "name": "Soapstone",
+      "level": 60,
+      "locations": [{ "location": "waiko", "requirement": ["Impressing the Locals quest"] }]
+    },
+
+    "wings_of_war": {
+      "id": "wings_of_war",
+      "name": "Wings of War",
+      "level": 70,
+      "locations": [
+        { "location": "god_wars_dungeon_armadylean_southwest", "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength"] },
+        { "location": "stormguard_citadel_dayguard_tower", "requirement": ["Wingsuit v2"] },
+        { "location": "stormguard_citadel_nightguard_tower", "requirement": ["Wingsuit v2"] }
+      ]
+    },
+
+    "stormguard_steel": {
+      "id": "stormguard_steel",
+      "name": "Stormguard steel",
+      "level": 70,
+      "locations": [
+        { "location": "stormguard_citadel_research_and_development_southwest", "requirement": ["Wingsuit v1"] },
+        { "location": "god_wars_dungeon_armadylean_southwest", "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength"] }
+      ]
+    },
+
+    "dragon_metal": {
+      "id": "dragon_metal",
+      "name": "Dragon metal",
+      "level": 73,
+      "locations": [
+        { "location": "orthen_xolo_city", "requirement": ["108 Archaeology", "Fragmented Memories mystery", "86 Hunter", "Lingam stone artefact"] },
+        { "location": "ancient_cavern", "requirement": ["Barbarian Firemaking achievement"] },
+        { "location": "orthen_observation_outpost", "requirement": ["90 Archaeology", "Qualification - Associate achievement"] }
+      ]
+    },
+
+    "orgone": {
+      "id": "orgone",
+      "name": "Orgone",
+      "level": 73,
+      "locations": [
+        { "location": "anachronia_west", "requirement": [] },
+        { "location": "orthen_moksha_ritual_site", "requirement": ["90 Archaeology", "Know Thy Measure mystery"] },
+        { "location": "orthen_xolo_city", "requirement": ["108 Archaeology", "Fragmented Memories mystery", "86 Hunter", "Lingam stone artefact"] }
+      ]
+    },
+
+    "mark_of_the_kyzaj": {
+      "id": "mark_of_the_kyzaj",
+      "name": "Mark of the Kyzaj",
+      "level": 76,
+      "locations": [
+        { "location": "warforge_north_goblin_tunnels", "requirement": ["Out of the Crucible mystery"] },
+        { "location": "god_wars_dungeon_bandosian_west", "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength"] }
+      ]
+    },
+
+    "malachite_green": {
+      "id": "malachite_green",
+      "name": "Malachite green",
+      "level": 76,
+      "locations": [
+        { "location": "god_wars_dungeon_bandos_stronghold", "requirement": ["Partial Troll Stronghold quest", "70 Strength"] },
+        { "location": "warforge_crucible_arena", "requirement": ["76 Archaeology"] },
+        { "location": "warforge_north_goblin_tunnels", "requirement": ["Out of the Crucible mystery"] }
+      ]
+    },
+
+    "animal_furs": {
+      "id": "animal_furs",
+      "name": "Animal furs",
+      "level": 76,
+      "locations": [{ "location": "feldip", "requirement": [] }]
+    },
+
+    "armadylean_yellow": {
+      "id": "armadylean_yellow",
+      "name": "Armadylean yellow",
+      "level": 76,
+      "locations": [
+        { "location": "stormguard_citadel_keshik_memorial", "requirement": ["Boots of Flight artefact"] },
+        { "location": "stormguard_citadel_relay_station", "requirement": ["Boots of Flight artefact"] },
+        { "location": "empyrean_citadel", "requirement": ["Missing, Presumed Death quest"] }
+      ]
+    },
+
+    "warforged_bronze": {
+      "id": "warforged_bronze",
+      "name": "Warforged bronze",
+      "level": 76,
+      "locations": [
+        { "location": "god_wars_dungeon_bandos_stronghold", "requirement": ["Partial Troll Stronghold quest", "70 Strength"] },
+        { "location": "god_wars_dungeon_bandosian_north", "requirement": ["Partial Troll Stronghold quest", "60 Agility or 60 Strength"] },
+        { "location": "warforge_crucible_arena", "requirement": ["76 Archaeology"] },
+        { "location": "warforge_north_goblin_tunnels", "requirement": ["Out of the Crucible mystery"] }
+      ]
+    },
+
+    "vulcanised_rubber": {
+      "id": "vulcanised_rubber",
+      "name": "Vulcanised rubber",
+      "level": 76,
+      "locations": [
+        { "location": "feldip_shores", "requirement": [] },
+        { "location": "warforge_south_goblin_tunnels", "requirement": ["Out of the Crucible mystery"] }
+      ]
+    },
+
+    "compass_rose": {
+      "id": "compass_rose",
+      "name": "Compass rose",
+      "level": 77,
+      "locations": [
+        { "location": "orthen_crypt_of_varanus", "requirement": ["90 Archaeology", "Qualification - Associate achievement"] },
+        { "location": "ancient_cavern", "requirement": ["Barbarian Firemaking achievement"] }
+      ]
+    },
+
+    "carbon_black": {
+      "id": "carbon_black",
+      "name": "Carbon black",
+      "level": 78,
+      "locations": [
+        { "location": "mount_firewake", "requirement": ["Ritual of the Mahjarrat quest", "Fate of the Gods quest"] },
+        { "location": "orthen_moksha_ritual_site", "requirement": ["90 Archaeology", "Know Thy Measure mystery"] }
+      ]
+    },
+
+    "felt": {
+      "id": "felt",
+      "name": "Felt",
+      "level": 78,
+      "locations": [
+        { "location": "orthen_observation_outpost", "requirement": ["90 Archaeology", "Qualification - Associate achievement"] },
+        { "location": "orthen_crypt_of_varanus", "requirement": ["90 Archaeology", "Qualification - Associate achievement"] },
+        { "location": "anachronia_west", "requirement": [] }
+      ]
+    },
+
+    "fossilised_bone": {
+      "id": "fossilised_bone",
+      "name": "Fossilised bone",
+      "level": 81,
+      "locations": [
+        { "location": "odd_old_man", "requirement": [] },
+        { "location": "ancient_cavern", "requirement": ["Barbarian Firemaking achievement"] }
+      ]
+    },
+
+    "yubiusk_clay": {
+      "id": "yubiusk_clay",
+      "name": "Yu'biusk clay",
+      "level": 83,
+      "locations": [
+        { "location": "feldip_shores", "requirement": [] },
+        { "location": "warforge_animal_pens", "requirement": ["Out of the Crucible mystery"] }
+      ]
+    },
+
+    "aetherium_alloy": {
+      "id": "aetherium_alloy",
+      "name": "Aetherium alloy",
+      "level": 85,
+      "locations": [
+        { "location": "stormguard_citadel_research_and_development_northwest", "requirement": ["Wingsuit v1"] },
+        { "location": "empyrean_citadel", "requirement": ["Missing, Presumed Death quest"] },
+        { "location": "stormguard_citadel_research_and_development_northeast", "requirement": ["Wingsuit v2"] }
+      ]
+    },
+
+    "quintessence": {
+      "id": "quintessence",
+      "name": "Quintessence",
+      "level": 91,
+      "locations": [
+        { "location": "stormguard_citadel_research_and_development_northeast", "requirement": ["Wingsuit v2"] },
+        { "location": "empyrean_citadel", "requirement": ["Missing, Presumed Death quest"] },
+        { "location": "stormguard_citadel_howls_workshop", "requirement": ["Wingsuit v3", "Stormguard gerege artefact"] }
+      ]
+    },
+
+    "dragonstone": {
+      "id": "dragonstone",
+      "name": "Dragonstone",
+      "level": 1,
+      "locations": []
+    },
+
+    "molten_glass": {
+      "id": "molten_glass",
+      "name": "Molten glass",
+      "level": 1,
+      "locations": []
+    },
+
+    "death_rune": {
+      "id": "death_rune",
+      "name": "Death rune",
+      "level": 1,
+      "locations": []
+    },
+
+    "ruby": {
+      "id": "ruby",
+      "name": "Ruby",
+      "level": 1,
+      "locations": []
+    },
+
+    "white_candle": {
+      "id": "white_candle",
+      "name": "White candle",
+      "level": 1,
+      "locations": []
+    },
+
+    "bronze_bar": {
+      "id": "bronze_bar",
+      "name": "Bronze bar",
+      "level": 1,
+      "locations": []
+    },
+
+    "silver_bar": {
+      "id": "silver_bar",
+      "name": "Silver bar",
+      "level": 1,
+      "locations": []
+    },
+
+    "sapphire": {
+      "id": "sapphire",
+      "name": "Sapphire",
+      "level": 1,
+      "locations": []
+    },
+
+    "clockwork": {
+      "id": "clockwork",
+      "name": "Clockwork",
+      "level": 1,
+      "locations": []
+    },
+
+    "diamond": {
+      "id": "diamond",
+      "name": "Diamond",
+      "level": 1,
+      "locations": []
+    },
+
+    "phoenix_feather": {
+      "id": "phoenix_feather",
+      "name": "Phoenix feather",
+      "level": 1,
+      "locations": []
+    },
+
+    "rope": {
+      "id": "rope",
+      "name": "Rope",
+      "level": 1,
+      "locations": []
+    },
+
+    "black_mushroom_ink": {
+      "id": "black_mushroom_ink",
+      "name": "Black mushroom ink",
+      "level": 1,
+      "locations": []
+    },
+
+    "weapon_poison_3": {
+      "id": "weapon_poison_3",
+      "name": "Weapon poison (3)",
+      "level": 1,
+      "locations": []
+    },
+
+    "chaotic_spike": {
+      "id": "chaotic_spike",
+      "name": "Chaotic spike",
+      "level": 1,
+      "locations": []
+    },
+
+    "spear_of_annihilation_tip": {
+      "id": "spear_of_annihilation_tip",
+      "name": "Spear of Annihilation tip",
+      "level": 1,
+      "locations": []
+    },
+
+    "spear_of_annihilation_with_shaft": {
+      "id": "spear_of_annihilation_with_shaft",
+      "name": "Spear of Annihilation with shaft",
+      "level": 1,
+      "locations": []
+    },
+
+    "spear_of_annihilation_with_shaft_and_spokes": {
+      "id": "spear_of_annihilation_with_shaft_and_spokes",
+      "name": "Spear of Annihilation with shaft + spokes",
+      "level": 1,
+      "locations": []
+    },
+
+    "tetracompass_piece_dial": {
+      "id": "tetracompass_piece_dial",
+      "name": "Tetracompass piece (dial)",
+      "level": 1,
+      "locations": []
+    },
+
+    "tetracompass_piece_needle": {
+      "id": "tetracompass_piece_needle",
+      "name": "Tetracompass piece (needle)",
+      "level": 1,
+      "locations": []
+    },
+
+    "tetracompass_piece_left": {
+      "id": "tetracompass_piece_left",
+      "name": "Tetracompass piece (left)",
+      "level": 1,
+      "locations": []
+    },
+
+    "tetracompass_piece_right": {
+      "id": "tetracompass_piece_right",
+      "name": "Tetracompass piece (right)",
+      "level": 1,
+      "locations": []
+    }
+  }
+}

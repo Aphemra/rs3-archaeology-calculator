@@ -1,0 +1,445 @@
+{
+  "mysteries": {
+    "breaking_the_seal": {
+      "id": "breaking_the_seal",
+      "name": "Breaking the Seal",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["12 Archaeology", "Archaeology tutorial"],
+      "rewards": ["900 Archaeology experience", "Access to the main fortress"]
+    },
+
+    "prison_break": {
+      "id": "prison_break",
+      "name": "Prison Break",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["12 Archaeology", "Breaking the Seal mystery"],
+      "rewards": ["900 Archaeology experience", "Access to the prison block"]
+    },
+
+    "eyes_in_their_stars": {
+      "id": "eyes_in_their_stars",
+      "name": "Eyes in Their Stars",
+      "alignment": "Zamorakian",
+      "dig_site": "Infernal Source",
+      "requirements": ["24 Archaeology"],
+      "rewards": ["1,300 Archaeology experience", "Access to the Dungeon of Disorder"]
+    },
+
+    "embrace_the_chaos": {
+      "id": "embrace_the_chaos",
+      "name": "Embrace the Chaos",
+      "alignment": "Zamorakian",
+      "dig_site": "Infernal Source",
+      "requirements": ["29 Archaeology", "Eyes in Their Stars mystery (partial)"],
+      "rewards": ["1,400 Archaeology experience", "Access to the Source (Vestibule of Futility)"]
+    },
+
+    "contract_claws": {
+      "id": "contract_claws",
+      "name": "Contract Claws",
+      "alignment": "Zamorakian",
+      "dig_site": "Infernal Source",
+      "requirements": ["29 Archaeology", "35 Prayer", "Land of the Goblins quest (partial)", "Embrace the Chaos mystery"],
+      "rewards": ["1,400 Archaeology experience", "A shortcut to the Harrowing from the lift at the Infernal Source Dig Site"]
+    },
+
+    "secrets_of_the_monolith": {
+      "id": "secrets_of_the_monolith",
+      "name": "Secrets of the Monolith",
+      "alignment": "General",
+      "dig_site": "Archaeology Guild",
+      "requirements": ["40 Archaeology", "Qualification - Assistant achievement"],
+      "rewards": ["2,000 Archaeology experience", "+100 energy from the Monolith"]
+    },
+
+    "fallen_angels": {
+      "id": "fallen_angels",
+      "name": "Fallen Angels",
+      "alignment": "Saradominist",
+      "dig_site": "Everlight",
+      "requirements": ["42 Archaeology"],
+      "rewards": ["2,100 Archaeology experience"]
+    },
+
+    "queen_of_the_icyene": {
+      "id": "queen_of_the_icyene",
+      "name": "Queen of the Icyene",
+      "alignment": "Saradominist",
+      "dig_site": "Everlight",
+      "requirements": ["42 Archaeology"],
+      "rewards": ["2,100 Archaeology experience"]
+    },
+
+    "time_served": {
+      "id": "time_served",
+      "name": "Time Served",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["47 Archaeology", "Prison Break mystery"],
+      "rewards": ["2,800 Archaeology experience", "Partial access to the Vault"]
+    },
+
+    "fall_and_rise": {
+      "id": "fall_and_rise",
+      "name": "Fall and Rise",
+      "alignment": "Saradominist",
+      "dig_site": "Everlight",
+      "requirements": ["61 Archaeology"],
+      "rewards": ["5,100 Archaeology experience"]
+    },
+
+    "empty_children": {
+      "id": "empty_children",
+      "name": "Empty Children",
+      "alignment": "Zarosian",
+      "dig_site": "Senntisten",
+      "requirements": ["66 Archaeology"],
+      "rewards": ["7,300 Archaeology experience"]
+    },
+
+    "secrets_of_the_inquisition": {
+      "id": "secrets_of_the_inquisition",
+      "name": "Secrets of the Inquisition",
+      "alignment": "Zarosian",
+      "dig_site": "Senntisten",
+      "requirements": ["67 Archaeology"],
+      "rewards": ["7,800 Archaeology experience", "Aurelius's Mask relic"]
+    },
+
+    "night_theatre": {
+      "id": "night_theatre",
+      "name": "Night Theatre",
+      "alignment": "Zarosian",
+      "dig_site": "Senntisten",
+      "requirements": ["67 Archaeology"],
+      "rewards": ["7,800 Archaeology experience"]
+    },
+
+    "dagon_bye": {
+      "id": "dagon_bye",
+      "name": "Dagon Bye",
+      "alignment": "Zamorakian",
+      "dig_site": "Infernal Source",
+      "requirements": ["68 Archaeology", "Contract Claws mystery", "Embrace the Chaos mystery", "Qualification - Assistant achievement"],
+      "rewards": [
+        "8,400 Archaeology experience",
+        "Pact with Dagon unlock",
+        "A shortcut to the Dagon Overlook from the lift at the Infernal Source Dig Site",
+        "Access to Ancient Summoning"
+      ]
+    },
+
+    "atonement": {
+      "id": "atonement",
+      "name": "Atonement",
+      "alignment": "Armadylean",
+      "dig_site": "Stormguard Citadel",
+      "requirements": ["70 Archaeology"],
+      "rewards": ["9,300 Archaeology experience"]
+    },
+
+    "leap_of_faith": {
+      "id": "leap_of_faith",
+      "name": "Leap of Faith",
+      "alignment": "Armadylean",
+      "dig_site": "Stormguard Citadel",
+      "requirements": ["70 Archaeology"],
+      "rewards": ["9,300 Archaeology experience"]
+    },
+
+    "the_dour_of_bable": {
+      "id": "the_dour_of_bable",
+      "name": "The Dour of Bable",
+      "alignment": "Saradominist",
+      "dig_site": "Everlight",
+      "requirements": ["72 Archaeology"],
+      "rewards": ["10,000 Archaeology experience"]
+    },
+
+    "the_cult_of_orcus": {
+      "id": "the_cult_of_orcus",
+      "name": "The Cult of Orcus",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["74 Archaeology", "Prison Break mystery"],
+      "rewards": ["11,000 Archaeology experience"]
+    },
+
+    "the_first_commander": {
+      "id": "the_first_commander",
+      "name": "The First Commander",
+      "alignment": "Bandosian",
+      "dig_site": "Warforge",
+      "requirements": ["76 Archaeology"],
+      "rewards": ["12,000 Archaeology experience"]
+    },
+
+    "the_spy_who_loved_metal": {
+      "id": "the_spy_who_loved_metal",
+      "name": "The Spy Who Loved Metal",
+      "alignment": "Armadylean",
+      "dig_site": "Stormguard Citadel",
+      "requirements": ["76 Archaeology", "40 Smithing"],
+      "rewards": ["12,000 Archaeology experience"]
+    },
+
+    "wing_out": {
+      "id": "wing_out",
+      "name": "Wing Out",
+      "alignment": "Armadylean",
+      "dig_site": "Stormguard Citadel",
+      "requirements": ["76 Archaeology"],
+      "rewards": ["12,000 Archaeology experience", "Ability to upgrade wingsuit v2 to v3"]
+    },
+
+    "out_of_the_crucible": {
+      "id": "out_of_the_crucible",
+      "name": "Out of the Crucible",
+      "alignment": "Bandosian",
+      "dig_site": "Warforge",
+      "requirements": ["83 Archaeology"],
+      "rewards": ["16,000 Archaeology experience"]
+    },
+
+    "into_the_forge": {
+      "id": "into_the_forge",
+      "name": "Into the Forge",
+      "alignment": "Bandosian",
+      "dig_site": "Warforge",
+      "requirements": ["83 Archaeology", "35 Dungeoneering", "28 Fishing", "Out of the Crucible mystery"],
+      "rewards": ["21,000 Archaeology experience", "8,0000 Dungeoneering experience"]
+    },
+
+    "a_study_in_aether": {
+      "id": "a_study_in_aether",
+      "name": "A Study in Aether",
+      "alignment": "Armadylean",
+      "dig_site": "Stormguard Citadel",
+      "requirements": ["85 Archaeology"],
+      "rewards": ["18,000 Archaeology experience"]
+    },
+
+    "a_new_home": {
+      "id": "a_new_home",
+      "name": "A New Home",
+      "alignment": "Dragonkin",
+      "dig_site": "Daemonheim",
+      "requirements": ["87 Archaeology"],
+      "rewards": ["19,500 Archaeology experience"]
+    },
+
+    "forge_war": {
+      "id": "forge_war",
+      "name": "Forge War!",
+      "alignment": "Bandosian",
+      "dig_site": "Warforge",
+      "requirements": ["89 Archaeology", "Out of the Crucible mystery"],
+      "rewards": ["21,000 Archaeology experience"]
+    },
+
+    "crypt_o_zoology": {
+      "id": "crypt_o_zoology",
+      "name": "Crypt o' Zoology",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["90 Archaeology"],
+      "rewards": ["21,500 Archaeology experience"]
+    },
+
+    "know_thy_measure": {
+      "id": "know_thy_measure",
+      "name": "Know Thy Measure",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["90 Archaeology", "Qualification - Associate achievement", "Talked to Mr. Mordaut about the digsite"],
+      "rewards": ["39,500 Archaeology experience", "Access to Moksha ritual site"]
+    },
+
+    "teleport_node_on": {
+      "id": "teleport_node_on",
+      "name": "Teleport Node On",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["90 Archaeology", "70 Runecrafting", "70 Crafting", "70 Divination", "Know Thy Measure mystery"],
+      "rewards": ["6,000 Divination experience", "3,000 Runecrafting experience", "3,000 Crafting experience", "35,000 Archaeology experience"]
+    },
+
+    "the_epic_of_hebe": {
+      "id": "the_epic_of_hebe",
+      "name": "The Epic of Hebe",
+      "alignment": "Saradominist",
+      "dig_site": "Everlight",
+      "requirements": ["92 Archaeology"],
+      "rewards": ["23,000 Archaeology experience"]
+    },
+
+    "howls_floating_workshop": {
+      "id": "howls_floating_workshop",
+      "name": "Howl's Floating Workshop",
+      "alignment": "Armadylean",
+      "dig_site": "Stormguard Citadel",
+      "requirements": ["95 Archaeology"],
+      "rewards": ["28,000 Archaeology experience", "Access to Ancient Summoning and the use of torn blueprint fragments"]
+    },
+
+    "writing_on_the_walls": {
+      "id": "writing_on_the_walls",
+      "name": "Writing on the Walls",
+      "alignment": "General",
+      "dig_site": "Archaeology Guild",
+      "requirements": [
+        "99 Archaeology",
+        "Qualification - Guildmaster achievement",
+        "Time Served mystery",
+        "Eyes in Their Stars mystery",
+        "Hallowed Be... mystery (partial)",
+        "Into the Forge mystery"
+      ],
+      "rewards": ["35,000 Archaeology experience"]
+    },
+
+    "you_have_chosen": {
+      "id": "you_have_chosen",
+      "name": "You Have Chosen...",
+      "alignment": "Bandosian",
+      "dig_site": "Warforge",
+      "requirements": ["100 Archaeology", "Out of the Crucible mystery", "The First Commander quest (partial)"],
+      "rewards": ["37,000 Archaeology experience", "Access to Warforge - Bandos's sanctum excavation site"]
+    },
+
+    "death_watch": {
+      "id": "death_watch",
+      "name": "Death Watch",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["101 Archaeology"],
+      "rewards": ["39,500 Archaeology experience"]
+    },
+
+    "hallowed_be": {
+      "id": "hallowed_be",
+      "name": "Hallowed Be...",
+      "alignment": "Saradominist",
+      "dig_site": "Everlight",
+      "requirements": ["105 Archaeology"],
+      "rewards": ["49,000 Archaeology experience"]
+    },
+
+    "the_everlight": {
+      "id": "the_everlight",
+      "name": "The Everlight",
+      "alignment": "Saradominist",
+      "dig_site": "Everlight",
+      "requirements": ["105 Archaeology", "40 Construction", "Hallowed Be... mystery"],
+      "rewards": ["49,000 Archaeology experience", "Ability to unlock the Heightened Senses relic"]
+    },
+
+    "free_your_mind": {
+      "id": "free_your_mind",
+      "name": "Free Your Mind",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["106 Archaeology"],
+      "rewards": ["51,500 Archaeology experience"]
+    },
+
+    "decimation": {
+      "id": "decimation",
+      "name": "Decimation",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["107 Archaeology", "Prison Break mystery"],
+      "rewards": ["54,000 Archaeology experience"]
+    },
+
+    "shadow_fall": {
+      "id": "shadow_fall",
+      "name": "Shadow Fall",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["107 Archaeology", "Prison Break mystery"],
+      "rewards": ["54,000 Archaeology experience"]
+    },
+
+    "the_forgotten_prisoner": {
+      "id": "the_forgotten_prisoner",
+      "name": "The Forgotten Prisoner",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["107 Archaeology", "Prison Break mystery"],
+      "rewards": ["54,000 Archaeology experience"]
+    },
+
+    "the_vault_of_shadows": {
+      "id": "the_vault_of_shadows",
+      "name": "The Vault of Shadows",
+      "alignment": "Zarosian",
+      "dig_site": "Khared-et",
+      "requirements": ["107 Archaeology", "Time Served mystery", "All shadow anchors powered"],
+      "rewards": ["55,000 total Archaeology experience", "25,000 Divination experience", "Ability to teleport between buttons"]
+    },
+
+    "fragmented_memories": {
+      "id": "fragmented_memories",
+      "name": "Fragmented Memories",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["108 Archaeology", "86 Hunter", "Know Thy Measure mystery"],
+      "rewards": ["56,500 Archaeology experience"]
+    },
+
+    "heart_of_the_forge": {
+      "id": "heart_of_the_forge",
+      "name": "Heart of the Forge",
+      "alignment": "Bandosian",
+      "dig_site": "Warforge",
+      "requirements": ["110 Archaeology", "Out of the Crucible mystery"],
+      "rewards": ["62,000 Archaeology experience"]
+    },
+
+    "a_new_age": {
+      "id": "a_new_age",
+      "name": "A New Age",
+      "alignment": "Dragonkin",
+      "dig_site": "Daemonheim",
+      "requirements": [
+        "113 Archaeology",
+        "95 Dungeoneering",
+        "A New Home mystery",
+        "A New Form mystery",
+        "Thought Process research",
+        "Twilight of the Gods quest"
+      ],
+      "rewards": ["67,000 Archaeology experience"]
+    },
+
+    "a_new_form": {
+      "id": "a_new_form",
+      "name": "A New Form",
+      "alignment": "Dragonkin",
+      "dig_site": "Daemonheim",
+      "requirements": ["113 Archaeology", "95 Dungeoneering"],
+      "rewards": ["67,000 Archaeology experience"]
+    },
+
+    "i_am_become_death": {
+      "id": "i_am_become_death",
+      "name": "I Am Become Death",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["113 Archaeology", "Fragmented Memories mystery"],
+      "rewards": ["67,000 Archaeology experience"]
+    },
+
+    "mysterious_city": {
+      "id": "mysterious_city",
+      "name": "Mysterious City",
+      "alignment": "Dragonkin",
+      "dig_site": "Orthen",
+      "requirements": ["120 Archaeology", "Fragmented Memories mystery"],
+      "rewards": ["80,000 Archaeology experience", "+150 energy from the Monolith"]
+    }
+  }
+}

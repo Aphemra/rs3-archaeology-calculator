@@ -1,0 +1,66 @@
+.option {
+  display: block;
+  width: 100%;
+
+  text-align: left;
+  padding: 10px 10px;
+
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.option:hover {
+  background: rgba(0, 0, 200, 0.1);
+}
+
+.option:active {
+  background: rgba(0, 0, 200, 0.15);
+}
+
+.option-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 12px;
+  line-height: 1;
+}
+
+.option-name {
+  font-weight: 600;
+}
+
+.option-materials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  line-height: 1;
+
+  min-width: 0;
+}
+
+.option-artefact {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+.option-level {
+  font-family: monospace;
+  opacity: 0.8;
+
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+
+  white-space: nowrap;
+}

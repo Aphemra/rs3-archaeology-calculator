@@ -1,0 +1,81 @@
+{
+  "collectors": {
+    "velucia": {
+      "id": "velucia",
+      "name": "Velucia",
+      "location": "Outside the Archaeology Guild"
+    },
+
+    "wise_old_man": {
+      "id": "wise_old_man",
+      "name": "Wise Old Man",
+      "location": "Draynor Village"
+    },
+
+    "soran": {
+      "id": "soran",
+      "name": "Soran, Emmissary of Zaros",
+      "location": "South of Varrock west bank"
+    },
+
+    "sir_atcha": {
+      "id": "sir_atcha",
+      "name": "Sir Atcha",
+      "location": "White Knights' Castle courtyard in Falador"
+    },
+
+    "sharrigan": {
+      "id": "sharrigan",
+      "name": "Sharrigan",
+      "location": "Anachronia base camp"
+    },
+
+    "lowse": {
+      "id": "lowse",
+      "name": "Lowse",
+      "location": "Armadyl's Tower south of Falador"
+    },
+
+    "isaura": {
+      "id": "isaura",
+      "name": "Isaura",
+      "location": "Black Knights' Base in Taverly Dungeon"
+    },
+
+    "giles": {
+      "id": "giles",
+      "name": "Giles",
+      "location": "Anachronia"
+    },
+
+    "general_wartface": {
+      "id": "general_wartface",
+      "name": "General Wartface",
+      "location": "Goblin Village"
+    },
+
+    "general_bentnoze": {
+      "id": "general_bentnoze",
+      "name": "General Bentnoze",
+      "location": "Goblin Village"
+    },
+
+    "eblis": {
+      "id": "eblis",
+      "name": "Eblis",
+      "location": "Bandit Camp lodestone"
+    },
+
+    "chief_tess": {
+      "id": "chief_tess",
+      "name": "Chief Tess",
+      "location": "Oo'glog"
+    },
+
+    "jacques": {
+      "id": "jacques",
+      "name": "Art Critic Jacques",
+      "location": "Varrock Museum top floor"
+    }
+  }
+}

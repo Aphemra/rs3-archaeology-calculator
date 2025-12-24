@@ -1,0 +1,105 @@
+.card {
+  border: 1px solid #3a3a3a;
+  border-radius: 10px;
+  background: #2a2a2a;
+  padding: 12px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.card-header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.card-name {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card-meta {
+  font-family: monospace;
+  opacity: 0.85;
+  font-size: 13px;
+}
+
+.card-quantity {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-quantity-label {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.card-quantity-input {
+  width: 80px;
+  padding: 6px 8px;
+}
+
+.card-section-title {
+  margin-top: 10px;
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+.card-materials {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 0;
+}
+
+.card-material-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  padding: 6px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-material-row-left {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+
+  gap: 12px;
+}
+
+.card-material-name {
+  font-size: 14px;
+}
+
+.card-material-quantity {
+  font-family: monospace;
+  width: 3ch;
+  text-align: right;
+  opacity: 0.95;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-delete {
+  padding: 6px 10px;
+  font-size: 0.9em;
+}

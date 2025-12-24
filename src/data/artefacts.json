@@ -1,0 +1,3854 @@
+{
+  "artefacts": {
+    "centurions_dress_sword": {
+      "id": "centurions_dress_sword",
+      "name": "Centurion's dress sword",
+      "level": 1,
+      "xp": 250.0,
+      "chronote_value": 0,
+      "materials_required": [
+        { "material_id": "imperial_iron", "qty": 5 },
+        { "material_id": "purpleheart_wood", "qty": 5 }
+      ],
+      "collections": ["museum_training_weapons"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "tutorial",
+      "source": "guild"
+    },
+
+    "venator_dagger": {
+      "id": "venator_dagger",
+      "name": "Venator dagger",
+      "level": 5,
+      "xp": 305.1,
+      "chronote_value": 206,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 16 },
+        { "material_id": "zarosian_insignia", "qty": 12 }
+      ],
+      "collections": ["zarosian_i", "museum_zarosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "venator_light_crossbow": {
+      "id": "venator_light_crossbow",
+      "name": "Venator light crossbow",
+      "level": 5,
+      "xp": 305.1,
+      "chronote_value": 206,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 12 },
+        { "material_id": "zarosian_insignia", "qty": 16 }
+      ],
+      "collections": ["zarosian_i", "museum_zarosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "centurions_seal": {
+      "id": "centurions_seal",
+      "name": "Centurion's seal",
+      "level": 12,
+      "xp": 430.8,
+      "chronote_value": 0,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 6 },
+        { "material_id": "zarosian_insignia", "qty": 2 }
+      ],
+      "collections": [""],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Breaking the Seal' mystery.",
+      "god": "zaros",
+      "source": "misc"
+    },
+
+    "primis_elementis_standard": {
+      "id": "primis_elementis_standard",
+      "name": "Primis Elementis standard",
+      "level": 12,
+      "xp": 430.8,
+      "chronote_value": 220,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 16 },
+        { "material_id": "third_age_iron", "qty": 12 }
+      ],
+      "collections": ["zarosian_i", "museum_zarosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "legionary_gladius": {
+      "id": "legionary_gladius",
+      "name": "Legionary gladius",
+      "level": 12,
+      "xp": 430.8,
+      "chronote_value": 220,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 10 },
+        { "material_id": "zarosian_insignia", "qty": 6 },
+        { "material_id": "imperial_steel", "qty": 12 }
+      ],
+      "collections": ["zarosian_i", "museum_zarosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "legionary_square_shield": {
+      "id": "legionary_square_shield",
+      "name": "Legionary square shield",
+      "level": 12,
+      "xp": 430.8,
+      "chronote_value": 220,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 8 },
+        { "material_id": "zarosian_insignia", "qty": 8 },
+        { "material_id": "imperial_steel", "qty": 12 }
+      ],
+      "collections": ["zarosian_i", "museum_zarosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "zaros_effigy": {
+      "id": "zaros_effigy",
+      "name": "Zaros effigy",
+      "level": 17,
+      "xp": 520.5,
+      "chronote_value": 244,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 8 },
+        { "material_id": "white_oak", "qty": 10 },
+        { "material_id": "zarosian_insignia", "qty": 12 }
+      ],
+      "collections": ["zarosian_i", "museum_zarosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "zarosian_training_dummy": {
+      "id": "zarosian_training_dummy",
+      "name": "Zarosian training dummy",
+      "level": 17,
+      "xp": 520.5,
+      "chronote_value": 244,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 16 },
+        { "material_id": "white_oak", "qty": 14 }
+      ],
+      "collections": ["zarosian_i", "museum_zarosian_i"],
+      "other_uses": 1,
+      "other_uses_notes": "Unlocks Katarina (student) as a researcher.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "hookah_pipe": {
+      "id": "hookah_pipe",
+      "name": "Hookah pipe",
+      "level": 20,
+      "xp": 574.4,
+      "chronote_value": 250,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 10 },
+        { "material_id": "goldrune", "qty": 12 },
+        { "material_id": "orthenglass", "qty": 8 }
+      ],
+      "collections": ["smoky_fings", "zamorakian_i", "museum_zamorakian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "opulent_wine_goblet": {
+      "id": "opulent_wine_goblet",
+      "name": "Opulent wine goblet",
+      "level": 20,
+      "xp": 574.4,
+      "chronote_value": 250,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 14 },
+        { "material_id": "goldrune", "qty": 16 }
+      ],
+      "collections": ["smoky_fings", "zamorakian_i", "museum_zamorakian_i"],
+      "other_uses": 1,
+      "other_uses_notes": "Unlocks Dorian (student) as a researcher.",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "crest_of_dagon": {
+      "id": "crest_of_dagon",
+      "name": "Crest of Dagon",
+      "level": 24,
+      "xp": 646.2,
+      "chronote_value": 272,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 14 },
+        { "material_id": "orthenglass", "qty": 18 }
+      ],
+      "collections": ["showy_fings", "zamorakian_i", "museum_zamorakian_i", "knowledge_is_power"],
+      "other_uses": 3,
+      "other_uses_notes": "3 used to access the Dungeon of Disorder in the Infernal Source.",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "disorder_painting": {
+      "id": "disorder_painting",
+      "name": "'Disorder' painting",
+      "level": 24,
+      "xp": 646.2,
+      "chronote_value": 272,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 6 },
+        { "material_id": "white_oak", "qty": 6 },
+        { "material_id": "vellum", "qty": 6 },
+        { "material_id": "cadmium_red", "qty": 14 }
+      ],
+      "collections": ["anarchic_abstraction", "zamorakian_i", "museum_zamorakian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "legatus_maximus_figurine": {
+      "id": "legatus_maximus_figurine",
+      "name": "Legatus Maximus figurine",
+      "level": 25,
+      "xp": 664.1,
+      "chronote_value": 274,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 8 },
+        { "material_id": "zarosian_insignia", "qty": 14 },
+        { "material_id": "ancient_vis", "qty": 10 }
+      ],
+      "collections": ["showy_fings", "zarosian_i", "museum_zarosian_i", "magic_man"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "solem_in_umbra_painting": {
+      "id": "solem_in_umbra_painting",
+      "name": "'Solem in Umbra' painting",
+      "level": 25,
+      "xp": 664.1,
+      "chronote_value": 274,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 8 },
+        { "material_id": "white_oak", "qty": 10 },
+        { "material_id": "tyrian_purple", "qty": 14 }
+      ],
+      "collections": ["imperial_impressionism", "zarosian_i", "museum_zarosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "imp_mask": {
+      "id": "imp_mask",
+      "name": "Imp mask",
+      "level": 29,
+      "xp": 735.9,
+      "chronote_value": 282,
+      "materials_required": [
+        { "material_id": "leather_scraps", "qty": 10 },
+        { "material_id": "chaotic_brimstone", "qty": 10 },
+        { "material_id": "demonhide", "qty": 12 }
+      ],
+      "collections": ["zamorakian_i", "museum_zamorakian_i", "hat_problem"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "lesser_demon_mask": {
+      "id": "lesser_demon_mask",
+      "name": "Lesser demon mask",
+      "level": 29,
+      "xp": 735.9,
+      "chronote_value": 282,
+      "materials_required": [
+        { "material_id": "leather_scraps", "qty": 6 },
+        { "material_id": "chaotic_brimstone", "qty": 8 },
+        { "material_id": "demonhide", "qty": 12 },
+        { "material_id": "cadmium_red", "qty": 6 }
+      ],
+      "collections": ["zamorakian_i", "museum_zamorakian_i", "hat_hoarder"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "greater_demon_mask": {
+      "id": "greater_demon_mask",
+      "name": "Greater demon mask",
+      "level": 29,
+      "xp": 735.9,
+      "chronote_value": 282,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 6 },
+        { "material_id": "leather_scraps", "qty": 6 },
+        { "material_id": "chaotic_brimstone", "qty": 8 },
+        { "material_id": "demonhide", "qty": 12 }
+      ],
+      "collections": ["zamorakian_i", "museum_zamorakian_i", "hat_hoarder"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'How Do You Do, Fellow Demon' achievement.",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "teleportation_crystal": {
+      "id": "teleportation_crystal",
+      "name": "Teleportation crystal",
+      "level": 30,
+      "xp": 233.3,
+      "chronote_value": 0,
+      "materials_required": [{ "material_id": "orthenglass", "qty": 20 }],
+      "collections": [""],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Osseous Rex' quest",
+      "god": "none",
+      "source": "quest"
+    },
+
+    "order_of_dis_robes": {
+      "id": "order_of_dis_robes",
+      "name": "Order of Dis robes",
+      "level": 36,
+      "xp": 861.5,
+      "chronote_value": 352,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 16 },
+        { "material_id": "cadmium_red", "qty": 10 },
+        { "material_id": "eye_of_dagon", "qty": 14 }
+      ],
+      "collections": ["zamorakian_i", "museum_zamorakian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "ritual_dagger": {
+      "id": "ritual_dagger",
+      "name": "Ritual dagger",
+      "level": 36,
+      "xp": 861.5,
+      "chronote_value": 352,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 16 },
+        { "material_id": "hellfire_metal", "qty": 24 },
+        { "material_id": "ruby", "qty": 1 }
+      ],
+      "collections": ["zamorakian_i", "museum_zamorakian_i", "magic_man"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'I Made Dis' achievement.",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "frying_pan": {
+      "id": "frying_pan",
+      "name": "'Frying pan'",
+      "level": 42,
+      "xp": 1073.3,
+      "chronote_value": 392,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 20 },
+        { "material_id": "white_marble", "qty": 24 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Fallen Angels' mystery.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "hallowed_lantern": {
+      "id": "hallowed_lantern",
+      "name": "Hallowed lantern",
+      "level": 42,
+      "xp": 1073.3,
+      "chronote_value": 392,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 20 },
+        { "material_id": "keramos", "qty": 24 },
+        { "material_id": "white_candle", "qty": 1 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i"],
+      "other_uses": 2,
+      "other_uses_notes": "Completing the 'No Secrets Left to Steal' achievement and to get a lit version for 50k Archaeology exp.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "branding_iron": {
+      "id": "branding_iron",
+      "name": "Branding iron",
+      "level": 45,
+      "xp": 1283.3,
+      "chronote_value": 412,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 14 },
+        { "material_id": "eye_of_dagon", "qty": 12 },
+        { "material_id": "hellfire_metal", "qty": 20 }
+      ],
+      "collections": ["zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "manacles": {
+      "id": "manacles",
+      "name": "Manacles",
+      "level": 45,
+      "xp": 1283.3,
+      "chronote_value": 412,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 14 },
+        { "material_id": "chaotic_brimstone", "qty": 18 },
+        { "material_id": "eye_of_dagon", "qty": 14 }
+      ],
+      "collections": ["zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "ancient_timepiece": {
+      "id": "ancient_timepiece",
+      "name": "Ancient timepiece",
+      "level": 47,
+      "xp": 1423.3,
+      "chronote_value": 416,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 12 },
+        { "material_id": "imperial_steel", "qty": 16 },
+        { "material_id": "ancient_vis", "qty": 18 }
+      ],
+      "collections": ["blingy_fings", "zarosian_ii", "museum_zarosian_ii", "magic_man"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Time Served' mystery.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "legatus_pendant": {
+      "id": "legatus_pendant",
+      "name": "Legatus pendant",
+      "level": 47,
+      "xp": 1423.3,
+      "chronote_value": 416,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 16 },
+        { "material_id": "goldrune", "qty": 18 },
+        { "material_id": "ancient_vis", "qty": 12 },
+        { "material_id": "dragonstone", "qty": 1 }
+      ],
+      "collections": ["blingy_fings", "zarosian_ii", "museum_zarosian_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing 'carcerem debris' and crossing security barrier in 'The Vault of Shadows'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "ceremonial_unicorn_ornament": {
+      "id": "ceremonial_unicorn_ornament",
+      "name": "Ceremonial unicorn ornament",
+      "level": 48,
+      "xp": 1493.3,
+      "chronote_value": 418,
+      "materials_required": [
+        { "material_id": "keramos", "qty": 26 },
+        { "material_id": "cobalt_blue", "qty": 20 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i", "hat_hoarder"],
+      "other_uses": 1,
+      "other_uses_notes": "Unlocks Eduardo (student) as a researcher.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "ceremonial_unicorn_saddle": {
+      "id": "ceremonial_unicorn_saddle",
+      "name": "Ceremonial unicorn saddle",
+      "level": 48,
+      "xp": 1493.3,
+      "chronote_value": 418,
+      "materials_required": [
+        { "material_id": "leather_scraps", "qty": 24 },
+        { "material_id": "cobalt_blue", "qty": 22 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "dragonkin_device": {
+      "id": "dragonkin_device",
+      "name": "Dragonkin device",
+      "level": 50,
+      "xp": 600.0,
+      "chronote_value": 0,
+      "materials_required": [{ "material_id": "orthenglass", "qty": 50 }],
+      "collections": [""],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Desperate Measures' quest.",
+      "god": "none",
+      "source": "quest"
+    },
+
+    "dragonkin_tablet": {
+      "id": "dragonkin_tablet",
+      "name": "Dragonkin tablet",
+      "level": 50,
+      "xp": 600.0,
+      "chronote_value": 0,
+      "materials_required": [{ "material_id": "orthenglass", "qty": 50 }],
+      "collections": [""],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Desperate Measures' quest.",
+      "god": "none",
+      "source": "quest"
+    },
+
+    "tetracompass_unpowered": {
+      "id": "tetracompass_unpowered",
+      "name": "Tetracompass (unpowered)",
+      "level": 50,
+      "xp": 2065.0,
+      "chronote_value": 0,
+      "materials_required": [
+        { "material_id": "tetracompass_piece_left", "qty": 1 },
+        { "material_id": "tetracompass_piece_right", "qty": 1 },
+        { "material_id": "tetracompass_piece_dial", "qty": 1 },
+        { "material_id": "tetracompass_piece_needle", "qty": 1 },
+        { "material_id": "malachite_green", "qty": 30 },
+        { "material_id": "cadmium_red", "qty": 30 },
+        { "material_id": "cobalt_blue", "qty": 30 },
+        { "material_id": "armadylean_yellow", "qty": 30 },
+        { "material_id": "tyrian_purple", "qty": 30 }
+      ],
+      "collections": [""],
+      "other_uses": 1,
+      "other_uses_notes": "Finding an ancient casket.",
+      "god": "none",
+      "source": "misc"
+    },
+
+    "everlight_harp": {
+      "id": "everlight_harp",
+      "name": "Everlight harp",
+      "level": 51,
+      "xp": 1703.3,
+      "chronote_value": 466,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 30 },
+        { "material_id": "white_oak", "qty": 22 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i", "wise_am_the_music_man"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'No Secrets Left to Steal' achievement.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "everlight_trumpet": {
+      "id": "everlight_trumpet",
+      "name": "Everlight trumpet",
+      "level": 51,
+      "xp": 1703.3,
+      "chronote_value": 466,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 28 },
+        { "material_id": "goldrune", "qty": 24 }
+      ],
+      "collections": ["smoky_fings", "saradominist_i", "museum_saradominist_i", "wise_am_the_music_man"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'That Old Black Magic: Skelly By Everlight' subquest.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "everlight_violin": {
+      "id": "everlight_violin",
+      "name": "Everlight violin",
+      "level": 51,
+      "xp": 1703.3,
+      "chronote_value": 466,
+      "materials_required": [
+        { "material_id": "star_of_saradomin", "qty": 16 },
+        { "material_id": "white_oak", "qty": 20 },
+        { "material_id": "samite_silk", "qty": 16 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i", "wise_am_the_music_man"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "folded_arm_figurine_female": {
+      "id": "folded_arm_figurine_female",
+      "name": "Folded-arm figurine (female)",
+      "level": 56,
+      "xp": 2053.3,
+      "chronote_value": 490,
+      "materials_required": [
+        { "material_id": "white_marble", "qty": 30 },
+        { "material_id": "goldrune", "qty": 24 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "folded_arm_figurine_male": {
+      "id": "folded_arm_figurine_male",
+      "name": "Folded-arm figurine (male)",
+      "level": 56,
+      "xp": 2053.3,
+      "chronote_value": 490,
+      "materials_required": [
+        { "material_id": "white_marble", "qty": 30 },
+        { "material_id": "goldrune", "qty": 24 }
+      ],
+      "collections": ["saradominist_i", "museum_saradominist_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "incite_fear_spell_scroll": {
+      "id": "incite_fear_spell_scroll",
+      "name": "'Incite Fear' spell scroll",
+      "level": 58,
+      "xp": 2193.3,
+      "chronote_value": 508,
+      "materials_required": [
+        { "material_id": "vellum", "qty": 20 },
+        { "material_id": "ancient_vis", "qty": 18 },
+        { "material_id": "blood_of_orcus", "qty": 18 }
+      ],
+      "collections": ["zarosian_ii", "museum_zarosian_ii", "magic_man", "imperial_sorcery"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing the ice door in 'The Vault of Shadows'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "pontifex_signet_ring": {
+      "id": "pontifex_signet_ring",
+      "name": "Pontifex signet ring",
+      "level": 58,
+      "xp": 2193.3,
+      "chronote_value": 508,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 16 },
+        { "material_id": "goldrune", "qty": 18 },
+        { "material_id": "ancient_vis", "qty": 22 },
+        { "material_id": "dragonstone", "qty": 1 }
+      ],
+      "collections": ["blingy_fings", "zarosian_ii", "museum_zarosian_ii"],
+      "other_uses": 2,
+      "other_uses_notes": "Accessing 'Pontifex barrier' and maximum security barrier in 'The Vault of Shadows' and in creating a 'Pontifex observation ring'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "apex_cap": {
+      "id": "apex_cap",
+      "name": "Apex cap",
+      "level": 60,
+      "xp": 2193.3,
+      "chronote_value": 540,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 28 },
+        { "material_id": "leather_scraps", "qty": 12 },
+        { "material_id": "ancient_vis", "qty": 20 }
+      ],
+      "collections": ["museum_zarosian_v", "religious_iconography"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "curse_tablet": {
+      "id": "curse_tablet",
+      "name": "Curse tablet",
+      "level": 60,
+      "xp": 2333.3,
+      "chronote_value": 540,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 16 },
+        { "material_id": "zarosian_insignia", "qty": 12 },
+        { "material_id": "soapstone", "qty": 20 },
+        { "material_id": "blood_of_orcus", "qty": 12 }
+      ],
+      "collections": ["museum_zarosian_v", "imperial_sorcery"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "funerary_urn_of_shadow": {
+      "id": "funerary_urn_of_shadow",
+      "name": "Funerary urn of shadow",
+      "level": 60,
+      "xp": 2333.3,
+      "chronote_value": 540,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 26 },
+        { "material_id": "tyrian_purple", "qty": 14 },
+        { "material_id": "ancient_vis", "qty": 20 }
+      ],
+      "collections": ["museum_zarosian_v", "urns_of_the_empire"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Secrets of the Inquisition' mystery.",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "dominion_discus": {
+      "id": "dominion_discus",
+      "name": "Dominion discus",
+      "level": 61,
+      "xp": 2566.7,
+      "chronote_value": 556,
+      "materials_required": [
+        { "material_id": "keramos", "qty": 34 },
+        { "material_id": "star_of_saradomin", "qty": 28 }
+      ],
+      "collections": ["saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "dominion_javelin": {
+      "id": "dominion_javelin",
+      "name": "Dominion javelin",
+      "level": 61,
+      "xp": 2566.7,
+      "chronote_value": 556,
+      "materials_required": [
+        { "material_id": "keramos", "qty": 32 },
+        { "material_id": "third_age_iron", "qty": 30 }
+      ],
+      "collections": ["saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "dominion_pelte_shield": {
+      "id": "dominion_pelte_shield",
+      "name": "Dominion pelte shield",
+      "level": 61,
+      "xp": 2566.7,
+      "chronote_value": 556,
+      "materials_required": [
+        { "material_id": "star_of_saradomin", "qty": 34 },
+        { "material_id": "samite_silk", "qty": 28 }
+      ],
+      "collections": ["saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "infula_robes": {
+      "id": "infula_robes",
+      "name": "Infula robes",
+      "level": 62,
+      "xp": 2800.0,
+      "chronote_value": 558,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 26 },
+        { "material_id": "leather_scraps", "qty": 12 },
+        { "material_id": "goldrune", "qty": 12 },
+        { "material_id": "tyrian_purple", "qty": 12 }
+      ],
+      "collections": ["museum_zarosian_v", "religious_iconography"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "funerary_urn_of_smoke": {
+      "id": "funerary_urn_of_smoke",
+      "name": "Funerary urn of smoke",
+      "level": 62,
+      "xp": 2800.0,
+      "chronote_value": 558,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 28 },
+        { "material_id": "tyrian_purple", "qty": 14 },
+        { "material_id": "ancient_vis", "qty": 20 }
+      ],
+      "collections": ["museum_zarosian_v", "urns_of_the_empire"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Secrets of the Inquisition' mystery.",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "hand_of_the_ancients": {
+      "id": "hand_of_the_ancients",
+      "name": "Hand of the Ancients",
+      "level": 62,
+      "xp": 2800.0,
+      "chronote_value": 558,
+      "materials_required": [
+        { "material_id": "blood_of_orcus", "qty": 12 },
+        { "material_id": "white_oak", "qty": 18 },
+        { "material_id": "ancient_vis", "qty": 14 },
+        { "material_id": "goldrune", "qty": 18 }
+      ],
+      "collections": ["museum_zarosian_v", "imperial_sorcery"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "decorative_amphora": {
+      "id": "decorative_amphora",
+      "name": "Decorative amphora",
+      "level": 63,
+      "xp": 3033.3,
+      "chronote_value": 560,
+      "materials_required": [
+        { "material_id": "tyrian_purple", "qty": 16 },
+        { "material_id": "ancient_vis", "qty": 18 },
+        { "material_id": "soapstone", "qty": 28 }
+      ],
+      "collections": ["museum_zarosian_vi", "entertaining_the_masses"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "funerary_urn_of_ice": {
+      "id": "funerary_urn_of_ice",
+      "name": "Funerary urn of ice",
+      "level": 63,
+      "xp": 3033.3,
+      "chronote_value": 560,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 28 },
+        { "material_id": "tyrian_purple", "qty": 14 },
+        { "material_id": "ancient_vis", "qty": 20 }
+      ],
+      "collections": ["museum_zarosian_vi", "urns_of_the_empire"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Secrets of the Inquisition' mystery.",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "loarnab_rod": {
+      "id": "loarnab_rod",
+      "name": "Loarnab rod",
+      "level": 63,
+      "xp": 3033.3,
+      "chronote_value": 560,
+      "materials_required": [
+        { "material_id": "white_oak", "qty": 28 },
+        { "material_id": "blood_of_orcus", "qty": 16 },
+        { "material_id": "imperial_steel", "qty": 18 }
+      ],
+      "collections": ["museum_zarosian_vi", "religious_iconography"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "inquisitors_ceremonial_armour": {
+      "id": "inquisitors_ceremonial_armour",
+      "name": "Inquisitor's ceremonial armour",
+      "level": 64,
+      "xp": 3266.7,
+      "chronote_value": 562,
+      "materials_required": [
+        { "material_id": "leather_scraps", "qty": 14 },
+        { "material_id": "samite_silk", "qty": 30 },
+        { "material_id": "tyrian_purple", "qty": 18 }
+      ],
+      "collections": ["finery_of_the_inquisition", "museum_zarosian_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "inquisitors_ceremonial_mask": {
+      "id": "inquisitors_ceremonial_mask",
+      "name": "Inquisitor's ceremonial mask",
+      "level": 64,
+      "xp": 3266.7,
+      "chronote_value": 562,
+      "materials_required": [
+        { "material_id": "ancient_vis", "qty": 14 },
+        { "material_id": "leather_scraps", "qty": 12 },
+        { "material_id": "blood_of_orcus", "qty": 14 },
+        { "material_id": "samite_silk", "qty": 22 }
+      ],
+      "collections": ["finery_of_the_inquisition", "museum_zarosian_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "inquisitors_seal": {
+      "id": "inquisitors_seal",
+      "name": "Inquisitor's seal",
+      "level": 64,
+      "xp": 3266.7,
+      "chronote_value": 562,
+      "materials_required": [
+        { "material_id": "tyrian_purple", "qty": 14 },
+        { "material_id": "zarosian_insignia", "qty": 20 },
+        { "material_id": "ancient_vis", "qty": 14 },
+        { "material_id": "goldrune", "qty": 14 }
+      ],
+      "collections": ["finery_of_the_inquisition", "museum_zarosian_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "the_lake_of_fire_painting": {
+      "id": "the_lake_of_fire_painting",
+      "name": "'The Lake of Fire' painting",
+      "level": 65,
+      "xp": 3500.0,
+      "chronote_value": 578,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 10 },
+        { "material_id": "white_oak", "qty": 10 },
+        { "material_id": "vellum", "qty": 10 },
+        { "material_id": "cadmium_red", "qty": 34 }
+      ],
+      "collections": ["anarchic_abstraction", "zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "lust_metal_sculpture": {
+      "id": "lust_metal_sculpture",
+      "name": "'Lust' metal sculpture",
+      "level": 65,
+      "xp": 3500.0,
+      "chronote_value": 578,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 16 },
+        { "material_id": "eye_of_dagon", "qty": 24 },
+        { "material_id": "goldrune", "qty": 24 },
+        { "material_id": "ruby", "qty": 1 }
+      ],
+      "collections": ["showy_fings", "zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "gladiator_helmet": {
+      "id": "gladiator_helmet",
+      "name": "Gladiator helmet",
+      "level": 66,
+      "xp": 3773.3,
+      "chronote_value": 580,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 30 },
+        { "material_id": "blood_of_orcus", "qty": 16 },
+        { "material_id": "leather_scraps", "qty": 18 }
+      ],
+      "collections": ["entertaining_the_masses", "museum_zarosian_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "gladiator_sword": {
+      "id": "gladiator_sword",
+      "name": "Gladiator sword",
+      "level": 66,
+      "xp": 3773.3,
+      "chronote_value": 580,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 30 },
+        { "material_id": "goldrune", "qty": 18 },
+        { "material_id": "zarosian_insignia", "qty": 16 }
+      ],
+      "collections": ["entertaining_the_masses", "museum_zarosian_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "funerary_urn_of_blood": {
+      "id": "funerary_urn_of_blood",
+      "name": "Funerary urn of blood",
+      "level": 66,
+      "xp": 3773.3,
+      "chronote_value": 580,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 30 },
+        { "material_id": "tyrian_purple", "qty": 14 },
+        { "material_id": "blood_of_orcus", "qty": 20 }
+      ],
+      "collections": ["museum_zarosian_vii", "urns_of_the_empire"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Secrets of the Inquisition' mystery.",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "funerary_urn_of_miasma": {
+      "id": "funerary_urn_of_miasma",
+      "name": "Funerary urn of miasma",
+      "level": 67,
+      "xp": 3966.7,
+      "chronote_value": 582,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 30 },
+        { "material_id": "tyrian_purple", "qty": 14 },
+        { "material_id": "ancient_vis", "qty": 20 }
+      ],
+      "collections": ["museum_zarosian_vii", "urns_of_the_empire"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "model_chariot": {
+      "id": "model_chariot",
+      "name": "Model chariot",
+      "level": 67,
+      "xp": 3966.7,
+      "chronote_value": 582,
+      "materials_required": [
+        { "material_id": "vellum", "qty": 12 },
+        { "material_id": "imperial_steel", "qty": 18 },
+        { "material_id": "goldrune", "qty": 20 },
+        { "material_id": "zarosian_insignia", "qty": 14 }
+      ],
+      "collections": ["museum_zarosian_vii", "entertaining_the_masses"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "the_serpents_fall_carving": {
+      "id": "the_serpents_fall_carving",
+      "name": "'The Serpent's Fall' carving",
+      "level": 67,
+      "xp": 3966.7,
+      "chronote_value": 582,
+      "materials_required": [
+        { "material_id": "vellum", "qty": 16 },
+        { "material_id": "tyrian_purple", "qty": 24 },
+        { "material_id": "blood_of_orcus", "qty": 12 },
+        { "material_id": "white_oak", "qty": 12 }
+      ],
+      "collections": ["museum_zarosian_vii", "religious_iconography"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "senntisten"
+    },
+
+    "chaos_star": {
+      "id": "chaos_star",
+      "name": "Chaos star",
+      "level": 68,
+      "xp": 4200.0,
+      "chronote_value": 584,
+      "materials_required": [
+        { "material_id": "chaotic_brimstone", "qty": 28 },
+        { "material_id": "hellfire_metal", "qty": 36 }
+      ],
+      "collections": ["zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 5,
+      "other_uses_notes": "Accessing 'Hydra portal' in the Infernal Source and creating the 'Abyssal Gatestone' and three are used for making an 'Enchantment of dispelling'.",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "spiked_dog_collar": {
+      "id": "spiked_dog_collar",
+      "name": "Spiked dog collar",
+      "level": 68,
+      "xp": 4200.0,
+      "chronote_value": 584,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 24 },
+        { "material_id": "leather_scraps", "qty": 24 },
+        { "material_id": "chaotic_brimstone", "qty": 16 }
+      ],
+      "collections": ["zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Who's a Bad Boy?' achievement.",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "bronze_dominion_medal": {
+      "id": "bronze_dominion_medal",
+      "name": "Bronze dominion medal",
+      "level": 69,
+      "xp": 4433.3,
+      "chronote_value": 572,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 36 },
+        { "material_id": "star_of_saradomin", "qty": 26 },
+        { "material_id": "bronze_bar", "qty": 1 }
+      ],
+      "collections": ["blingy_fings", "saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "silver_dominion_medal": {
+      "id": "silver_dominion_medal",
+      "name": "Silver dominion medal",
+      "level": 69,
+      "xp": 4433.3,
+      "chronote_value": 572,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 36 },
+        { "material_id": "star_of_saradomin", "qty": 26 },
+        { "material_id": "silver_bar", "qty": 1 }
+      ],
+      "collections": ["blingy_fings", "saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "dominion_torch": {
+      "id": "dominion_torch",
+      "name": "Dominion torch",
+      "level": 69,
+      "xp": 4433.3,
+      "chronote_value": 572,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 12 },
+        { "material_id": "orthenglass", "qty": 12 },
+        { "material_id": "everlight_silvthril", "qty": 20 },
+        { "material_id": "star_of_saradomin", "qty": 18 }
+      ],
+      "collections": ["smoky_fings", "saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "Completing the 'Hallowed Be...' mystery and acquiring the 'Gold dominion medal'.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "ikovian_gerege": {
+      "id": "ikovian_gerege",
+      "name": "Ikovian gerege",
+      "level": 70,
+      "xp": 4666.7,
+      "chronote_value": 602,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 36 },
+        { "material_id": "wings_of_war", "qty": 30 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i", "knowledge_is_power"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing 'Stormguard Citadel'.",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "toy_glider": {
+      "id": "toy_glider",
+      "name": "Toy glider",
+      "level": 70,
+      "xp": 4666.7,
+      "chronote_value": 602,
+      "materials_required": [
+        { "material_id": "stormguard_steel", "qty": 36 },
+        { "material_id": "white_oak", "qty": 30 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "toy_war_golem": {
+      "id": "toy_war_golem",
+      "name": "Toy war golem",
+      "level": 70,
+      "xp": 4666.7,
+      "chronote_value": 602,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 36 },
+        { "material_id": "white_oak", "qty": 30 },
+        { "material_id": "clockwork", "qty": 1 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "ceremonial_dragonkin_device": {
+      "id": "ceremonial_dragonkin_device",
+      "name": "Ceremonial dragonkin device",
+      "level": 70,
+      "xp": 4666.7,
+      "chronote_value": 602,
+      "materials_required": [{ "material_id": "orthenglass", "qty": 66 }],
+      "collections": ["desperate_for_artefacts"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "decorative_vase": {
+      "id": "decorative_vase",
+      "name": "Decorative vase",
+      "level": 72,
+      "xp": 5133.3,
+      "chronote_value": 606,
+      "materials_required": [
+        { "material_id": "white_marble", "qty": 36 },
+        { "material_id": "cobalt_blue", "qty": 30 }
+      ],
+      "collections": ["saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "kantharos_cup": {
+      "id": "kantharos_cup",
+      "name": "Kantharos cup",
+      "level": 72,
+      "xp": 5133.3,
+      "chronote_value": 606,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 30 },
+        { "material_id": "orthenglass", "qty": 36 },
+        { "material_id": "sapphire", "qty": 1 }
+      ],
+      "collections": ["saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Creating the 'Cup of Nectar'.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "patera_bowl": {
+      "id": "patera_bowl",
+      "name": "Patera bowl",
+      "level": 72,
+      "xp": 5133.3,
+      "chronote_value": 606,
+      "materials_required": [
+        { "material_id": "keramos", "qty": 36 },
+        { "material_id": "goldrune", "qty": 30 },
+        { "material_id": "sapphire", "qty": 1 }
+      ],
+      "collections": ["saradominist_ii", "museum_saradominist_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "castle_gatestone": {
+      "id": "castle_gatestone",
+      "name": "Castle gatestone",
+      "level": 73,
+      "xp": 5366.7,
+      "chronote_value": 622,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 36 },
+        { "material_id": "orthenglass", "qty": 32 }
+      ],
+      "collections": ["dragonkin_v", "museum_dragonkin_v"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "engraved_ring_of_kinship": {
+      "id": "engraved_ring_of_kinship",
+      "name": "Engraved ring of kinship",
+      "level": 73,
+      "xp": 5366.7,
+      "chronote_value": 622,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 28 },
+        { "material_id": "dragon_metal", "qty": 40 }
+      ],
+      "collections": ["dragonkin_v", "museum_dragonkin_v"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "ceremonial_mace": {
+      "id": "ceremonial_mace",
+      "name": "Ceremonial mace",
+      "level": 74,
+      "xp": 5600.0,
+      "chronote_value": 624,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 20 },
+        { "material_id": "third_age_iron", "qty": 20 },
+        { "material_id": "goldrune", "qty": 28 }
+      ],
+      "collections": ["hitty_fings", "zarosian_ii", "museum_zarosian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "pontifex_maximus_figurine": {
+      "id": "pontifex_maximus_figurine",
+      "name": "Pontifex Maximus figurine",
+      "level": 74,
+      "xp": 5600.0,
+      "chronote_value": 624,
+      "materials_required": [
+        { "material_id": "zarosian_insignia", "qty": 24 },
+        { "material_id": "ancient_vis", "qty": 16 },
+        { "material_id": "goldrune", "qty": 28 },
+        { "material_id": "dragonstone", "qty": 1 }
+      ],
+      "collections": ["showy_fings", "zarosian_ii", "museum_zarosian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "consensus_ad_idem_painting": {
+      "id": "consensus_ad_idem_painting",
+      "name": "'Consensus ad Idem' painting",
+      "level": 74,
+      "xp": 5600.0,
+      "chronote_value": 624,
+      "materials_required": [
+        { "material_id": "white_oak", "qty": 10 },
+        { "material_id": "samite_silk", "qty": 10 },
+        { "material_id": "tyrian_purple", "qty": 50 }
+      ],
+      "collections": ["imperial_impressionism", "zarosian_ii", "museum_zarosian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "wingsuit_v1": {
+      "id": "wingsuit_v1",
+      "name": "Wingsuit v1",
+      "level": 76,
+      "xp": 10000.0,
+      "chronote_value": 0,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 40 },
+        { "material_id": "leather_scraps", "qty": 20 },
+        { "material_id": "stormguard_steel", "qty": 9 },
+        { "material_id": "armadylean_yellow", "qty": 1 }
+      ],
+      "collections": [""],
+      "other_uses": 1,
+      "other_uses_notes": "Traversing 'Stormguard Citadel'.",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "avian_song_egg_player": {
+      "id": "avian_song_egg_player",
+      "name": "Avian song-egg player",
+      "level": 76,
+      "xp": 6066.7,
+      "chronote_value": 628,
+      "materials_required": [
+        { "material_id": "stormguard_steel", "qty": 36 },
+        { "material_id": "armadylean_yellow", "qty": 32 },
+        { "material_id": "diamond", "qty": 1 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i", "wise_am_the_music_man"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "keshik_drum": {
+      "id": "keshik_drum",
+      "name": "Keshik drum",
+      "level": 76,
+      "xp": 6066.7,
+      "chronote_value": 628,
+      "materials_required": [
+        { "material_id": "wings_of_war", "qty": 16 },
+        { "material_id": "animal_furs", "qty": 16 },
+        { "material_id": "white_oak", "qty": 20 },
+        { "material_id": "leather_scraps", "qty": 16 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i", "wise_am_the_music_man"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "morin_khuur": {
+      "id": "morin_khuur",
+      "name": "Morin khuur",
+      "level": 76,
+      "xp": 6066.7,
+      "chronote_value": 628,
+      "materials_required": [
+        { "material_id": "armadylean_yellow", "qty": 36 },
+        { "material_id": "white_oak", "qty": 32 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i", "wise_am_the_music_man"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "ekeleshuun_blinder_mask": {
+      "id": "ekeleshuun_blinder_mask",
+      "name": "Ekeleshuun blinder mask",
+      "level": 76,
+      "xp": 6066.7,
+      "chronote_value": 628,
+      "materials_required": [
+        { "material_id": "vulcanised_rubber", "qty": 24 },
+        { "material_id": "malachite_green", "qty": 20 },
+        { "material_id": "vellum", "qty": 24 }
+      ],
+      "collections": ["green_gobbo_goodies_i", "museum_bandosian_i", "hat_problem"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "narogoshuun_hob_da_gob_ball": {
+      "id": "narogoshuun_hob_da_gob_ball",
+      "name": "Narogoshuun 'Hob-da-Gob' ball",
+      "level": 76,
+      "xp": 6066.7,
+      "chronote_value": 628,
+      "materials_required": [
+        { "material_id": "vulcanised_rubber", "qty": 36 },
+        { "material_id": "mark_of_the_kyzaj", "qty": 32 }
+      ],
+      "collections": ["green_gobbo_goodies_i", "museum_bandosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "rekeshuun_war_tether": {
+      "id": "rekeshuun_war_tether",
+      "name": "Rekeshuun war tether",
+      "level": 76,
+      "xp": 6066.7,
+      "chronote_value": 628,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 20 },
+        { "material_id": "vulcanised_rubber", "qty": 22 },
+        { "material_id": "leather_scraps", "qty": 26 }
+      ],
+      "collections": ["green_gobbo_goodies_i", "museum_bandosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "exploratory_totem": {
+      "id": "exploratory_totem",
+      "name": "Exploratory totem",
+      "level": 77,
+      "xp": 6300.0,
+      "chronote_value": 644,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 34 },
+        { "material_id": "compass_rose", "qty": 36 }
+      ],
+      "collections": ["dragonkin_v", "museum_dragonkin_v"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "excavator_portal_mine": {
+      "id": "excavator_portal_mine",
+      "name": "Excavator portal mine",
+      "level": 77,
+      "xp": 5366.7,
+      "chronote_value": 644,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 36 },
+        { "material_id": "orthenglass", "qty": 34 }
+      ],
+      "collections": ["dragonkin_v", "museum_dragonkin_v"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "storage_totem": {
+      "id": "storage_totem",
+      "name": "Storage totem",
+      "level": 78,
+      "xp": 6533.3,
+      "chronote_value": 646,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 36 },
+        { "material_id": "compass_rose", "qty": 34 }
+      ],
+      "collections": ["dragonkin_vi", "museum_dragonkin_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "plant_seed_satchel": {
+      "id": "plant_seed_satchel",
+      "name": "Plant seed satchel",
+      "level": 78,
+      "xp": 6533.3,
+      "chronote_value": 646,
+      "materials_required": [
+        { "material_id": "felt", "qty": 28 },
+        { "material_id": "carbon_black", "qty": 28 },
+        { "material_id": "compass_rose", "qty": 14 }
+      ],
+      "collections": ["dragonkin_vi", "museum_dragonkin_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "snuff_box": {
+      "id": "snuff_box",
+      "name": "Snuff box",
+      "level": 78,
+      "xp": 6533.3,
+      "chronote_value": 646,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 20 },
+        { "material_id": "carbon_black", "qty": 30 },
+        { "material_id": "felt", "qty": 20 }
+      ],
+      "collections": ["dragonkin_vi", "museum_dragonkin_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "aviansie_dreamcoat": {
+      "id": "aviansie_dreamcoat",
+      "name": "Aviansie dreamcoat",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "armadylean_yellow", "qty": 20 },
+        { "material_id": "samite_silk", "qty": 30 },
+        { "material_id": "animal_furs", "qty": 22 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i"],
+      "other_uses": 1,
+      "other_uses_notes": "Acquiring the 'Ring of Solomon' from Armadyl.",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "ceremonial_plume": {
+      "id": "ceremonial_plume",
+      "name": "Ceremonial plume",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "armadylean_yellow", "qty": 38 },
+        { "material_id": "goldrune", "qty": 34 },
+        { "material_id": "phoenix_feather", "qty": 1 }
+      ],
+      "collections": ["showy_fings", "armadylean_i", "museum_armadylean_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "peacocking_parasol": {
+      "id": "peacocking_parasol",
+      "name": "Peacocking parasol",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "armadylean_yellow", "qty": 22 },
+        { "material_id": "samite_silk", "qty": 30 },
+        { "material_id": "white_oak", "qty": 20 }
+      ],
+      "collections": ["armadylean_i", "museum_armadylean_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "ogre_kyzaj_axe": {
+      "id": "ogre_kyzaj_axe",
+      "name": "Ogre Kyzaj axe",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 28 },
+        { "material_id": "mark_of_the_kyzaj", "qty": 20 },
+        { "material_id": "fossilised_bone", "qty": 24 }
+      ],
+      "collections": ["red_rum_relics_i", "museum_bandosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "ork_cleaver_sword": {
+      "id": "ork_cleaver_sword",
+      "name": "Ork cleaver sword",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 36 },
+        { "material_id": "fossilised_bone", "qty": 36 }
+      ],
+      "collections": ["red_rum_relics_i", "museum_bandosian_i"],
+      "other_uses": 2,
+      "other_uses_notes": "2 used to make the 'Enchantment of savagery'.",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "larupia_trophy": {
+      "id": "larupia_trophy",
+      "name": "Larupia trophy",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "cadmium_red", "qty": 18 },
+        { "material_id": "animal_furs", "qty": 28 },
+        { "material_id": "orthenglass", "qty": 26 }
+      ],
+      "collections": ["zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "lion_trophy": {
+      "id": "lion_trophy",
+      "name": "Lion trophy",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "cadmium_red", "qty": 18 },
+        { "material_id": "animal_furs", "qty": 28 },
+        { "material_id": "white_oak", "qty": 26 }
+      ],
+      "collections": ["zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "she_wolf_trophy": {
+      "id": "she_wolf_trophy",
+      "name": "She-wolf trophy",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "chaotic_brimstone", "qty": 26 },
+        { "material_id": "cadmium_red", "qty": 18 },
+        { "material_id": "animal_furs", "qty": 28 }
+      ],
+      "collections": ["zamorakian_ii", "museum_zamorakian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "pontifex_censer": {
+      "id": "pontifex_censer",
+      "name": "Pontifex censer",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 20 },
+        { "material_id": "ancient_vis", "qty": 20 },
+        { "material_id": "goldrune", "qty": 32 },
+        { "material_id": "dragonstone", "qty": 1 }
+      ],
+      "collections": ["smoky_fings", "zarosian_ii", "museum_zarosian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "pontifex_crozier": {
+      "id": "pontifex_crozier",
+      "name": "Pontifex crozier",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 20 },
+        { "material_id": "zarosian_insignia", "qty": 20 },
+        { "material_id": "goldrune", "qty": 32 }
+      ],
+      "collections": ["hitty_fings", "zarosian_ii", "museum_zarosian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "pontifex_mitre": {
+      "id": "pontifex_mitre",
+      "name": "Pontifex mitre",
+      "level": 81,
+      "xp": 7388.9,
+      "chronote_value": 666,
+      "materials_required": [
+        { "material_id": "samite_silk", "qty": 32 },
+        { "material_id": "ancient_vis", "qty": 20 },
+        { "material_id": "zarosian_insignia", "qty": 20 }
+      ],
+      "collections": ["zarosian_ii", "museum_zarosian_ii", "hat_hoarder"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "thorobshuun_battle_standard": {
+      "id": "thorobshuun_battle_standard",
+      "name": "Thorobshuun battle standard",
+      "level": 83,
+      "xp": 8166.7,
+      "chronote_value": 684,
+      "materials_required": [
+        { "material_id": "mark_of_the_kyzaj", "qty": 16 },
+        { "material_id": "malachite_green", "qty": 22 },
+        { "material_id": "white_oak", "qty": 16 },
+        { "material_id": "samite_silk", "qty": 20 }
+      ],
+      "collections": ["green_gobbo_goodies_i", "museum_bandosian_i"],
+      "other_uses": 1,
+      "other_uses_notes": "Acquiring the 'Red hand cave painting'.",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "yurkolgokh_stink_grenade": {
+      "id": "yurkolgokh_stink_grenade",
+      "name": "Yurkolgokh stink grenade",
+      "level": 83,
+      "xp": 8166.7,
+      "chronote_value": 684,
+      "materials_required": [
+        { "material_id": "yubiusk_clay", "qty": 38 },
+        { "material_id": "vulcanised_rubber", "qty": 36 },
+        { "material_id": "weapon_poison_3", "qty": 1 }
+      ],
+      "collections": ["green_gobbo_goodies_i", "museum_bandosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "dominarian_device": {
+      "id": "dominarian_device",
+      "name": "Dominarian device",
+      "level": 84,
+      "xp": 8555.6,
+      "chronote_value": 686,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 30 },
+        { "material_id": "keramos", "qty": 22 },
+        { "material_id": "third_age_iron", "qty": 22 },
+        { "material_id": "clockwork", "qty": 1 }
+      ],
+      "collections": ["saradominist_iii", "museum_saradominist_iii"],
+      "other_uses": 1,
+      "other_uses_notes": "Acquiring the 'Andvaranaut' from Reldo.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "fishing_trident": {
+      "id": "fishing_trident",
+      "name": "Fishing trident",
+      "level": 84,
+      "xp": 8555.6,
+      "chronote_value": 686,
+      "materials_required": [
+        { "material_id": "star_of_saradomin", "qty": 22 },
+        { "material_id": "third_age_iron", "qty": 30 },
+        { "material_id": "goldrune", "qty": 22 }
+      ],
+      "collections": ["hitty_fings", "saradominist_iii", "museum_saradominist_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "hawkeye_lens_multi_vision_scope": {
+      "id": "hawkeye_lens_multi_vision_scope",
+      "name": "Hawkeye lens multi-vision scope",
+      "level": 85,
+      "xp": 8944.4,
+      "chronote_value": 688,
+      "materials_required": [
+        { "material_id": "stormguard_steel", "qty": 40 },
+        { "material_id": "orthenglass", "qty": 34 }
+      ],
+      "collections": ["armadylean_ii", "museum_armadylean_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "talon_3_razor_wing": {
+      "id": "talon_3_razor_wing",
+      "name": "Talon-3 razor wing",
+      "level": 85,
+      "xp": 8944.4,
+      "chronote_value": 688,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 40 },
+        { "material_id": "wings_of_war", "qty": 34 },
+        { "material_id": "rope", "qty": 1 }
+      ],
+      "collections": ["armadylean_ii", "museum_armadylean_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "exsanguinate_spell_scroll": {
+      "id": "exsanguinate_spell_scroll",
+      "name": "'Exsanguinate' spell scroll",
+      "level": 86,
+      "xp": 9333.3,
+      "chronote_value": 704,
+      "materials_required": [
+        { "material_id": "vellum", "qty": 40 },
+        { "material_id": "blood_of_orcus", "qty": 36 }
+      ],
+      "collections": ["zarosian_iii", "museum_zarosian_iii", "magic_man", "imperial_sorcery"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing the blood door in 'The Vault of Shadows'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "necromantic_focus": {
+      "id": "necromantic_focus",
+      "name": "Necromantic focus",
+      "level": 86,
+      "xp": 9333.3,
+      "chronote_value": 704,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 20 },
+        { "material_id": "blood_of_orcus", "qty": 26 },
+        { "material_id": "ancient_vis", "qty": 30 }
+      ],
+      "collections": ["zarosian_iii", "museum_zarosian_iii", "knowledge_is_power", "imperial_sorcery"],
+      "other_uses": 2,
+      "other_uses_notes": "Completing the 'Tomes of the Warlock' quest and used to create an 'Enchantment of affliction'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "spent_summoning_charm": {
+      "id": "spent_summoning_charm",
+      "name": "Spent summoning charm",
+      "level": 87,
+      "xp": 9722.2,
+      "chronote_value": 706,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 46 },
+        { "material_id": "felt", "qty": 30 }
+      ],
+      "collections": ["dragonkin_vi", "museum_dragonkin_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "friendship_bracelet": {
+      "id": "friendship_bracelet",
+      "name": "'Friendship bracelet'",
+      "level": 87,
+      "xp": 9722.2,
+      "chronote_value": 706,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 30 },
+        { "material_id": "felt", "qty": 46 }
+      ],
+      "collections": ["dragonkin_vi", "museum_dragonkin_vi"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing 'Daemonheim - Depths'.",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "homely_totem": {
+      "id": "homely_totem",
+      "name": "Homely totem",
+      "level": 87,
+      "xp": 9722.2,
+      "chronote_value": 706,
+      "materials_required": [
+        { "material_id": "soapstone", "qty": 36 },
+        { "material_id": "felt", "qty": 40 }
+      ],
+      "collections": ["dragonkin_vi", "museum_dragonkin_vi"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "high_priest_crozier": {
+      "id": "high_priest_crozier",
+      "name": "High priest crozier",
+      "level": 89,
+      "xp": 10500.0,
+      "chronote_value": 724,
+      "materials_required": [
+        { "material_id": "mark_of_the_kyzaj", "qty": 26 },
+        { "material_id": "malachite_green", "qty": 24 },
+        { "material_id": "goldrune", "qty": 28 }
+      ],
+      "collections": ["hitty_fings", "green_gobbo_goodies_ii", "museum_bandosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "high_priest_mitre": {
+      "id": "high_priest_mitre",
+      "name": "High priest mitre",
+      "level": 89,
+      "xp": 10500.0,
+      "chronote_value": 724,
+      "materials_required": [
+        { "material_id": "mark_of_the_kyzaj", "qty": 26 },
+        { "material_id": "malachite_green", "qty": 24 },
+        { "material_id": "samite_silk", "qty": 28 }
+      ],
+      "collections": ["green_gobbo_goodies_ii", "museum_bandosian_i", "hat_problem", "magic_man"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "high_priest_orb": {
+      "id": "high_priest_orb",
+      "name": "High priest orb",
+      "level": 89,
+      "xp": 10500.0,
+      "chronote_value": 724,
+      "materials_required": [
+        { "material_id": "mark_of_the_kyzaj", "qty": 26 },
+        { "material_id": "malachite_green", "qty": 24 },
+        { "material_id": "goldrune", "qty": 28 }
+      ],
+      "collections": ["hitty_fings", "green_gobbo_goodies_ii", "museum_bandosian_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "torment_metal_sculpture": {
+      "id": "torment_metal_sculpture",
+      "name": "'Torment' metal sculpture",
+      "level": 89,
+      "xp": 10500.0,
+      "chronote_value": 724,
+      "materials_required": [
+        { "material_id": "eye_of_dagon", "qty": 20 },
+        { "material_id": "third_age_iron", "qty": 20 },
+        { "material_id": "hellfire_metal", "qty": 38 }
+      ],
+      "collections": ["zamorakian_iii", "museum_zamorakian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "pandemonium_tapestry": {
+      "id": "pandemonium_tapestry",
+      "name": "'Pandemonium' tapestry",
+      "level": 89,
+      "xp": 10500.0,
+      "chronote_value": 724,
+      "materials_required": [
+        { "material_id": "white_oak", "qty": 12 },
+        { "material_id": "samite_silk", "qty": 12 },
+        { "material_id": "vellum", "qty": 12 },
+        { "material_id": "cadmium_red", "qty": 42 }
+      ],
+      "collections": ["anarchic_abstraction", "zamorakian_iii", "museum_zamorakian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "ceremonial_dragonkin_tablet": {
+      "id": "ceremonial_dragonkin_tablet",
+      "name": "Ceremonial dragonkin tablet",
+      "level": 90,
+      "xp": 10888.9,
+      "chronote_value": 733,
+      "materials_required": [{ "material_id": "orthenglass", "qty": 79 }],
+      "collections": ["desperate_for_artefacts"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "pasaha": {
+      "id": "pasaha",
+      "name": "Pasaha",
+      "level": 90,
+      "xp": 10888.9,
+      "chronote_value": 726,
+      "materials_required": [
+        { "material_id": "felt", "qty": 40 },
+        { "material_id": "goldrune", "qty": 38 }
+      ],
+      "collections": ["dragonkin_i", "museum_dragonkin_i"],
+      "other_uses": 1,
+      "other_uses_notes": "Creating the 'Artificer's measure'.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "ritual_bell": {
+      "id": "ritual_bell",
+      "name": "Ritual bell",
+      "level": 90,
+      "xp": 10888.9,
+      "chronote_value": 726,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 40 },
+        { "material_id": "compass_rose", "qty": 38 }
+      ],
+      "collections": ["dragonkin_i", "museum_dragonkin_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "prototype_gravimeter": {
+      "id": "prototype_gravimeter",
+      "name": "Prototype gravimeter",
+      "level": 91,
+      "xp": 11277.8,
+      "chronote_value": 742,
+      "materials_required": [
+        { "material_id": "quintessence", "qty": 34 },
+        { "material_id": "leather_scraps", "qty": 20 },
+        { "material_id": "third_age_iron", "qty": 26 }
+      ],
+      "collections": ["armadylean_ii", "museum_armadylean_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "songbird_recorder": {
+      "id": "songbird_recorder",
+      "name": "Songbird recorder",
+      "level": 91,
+      "xp": 11277.8,
+      "chronote_value": 742,
+      "materials_required": [
+        { "material_id": "stormguard_steel", "qty": 44 },
+        { "material_id": "orthenglass", "qty": 36 },
+        { "material_id": "diamond", "qty": 1 }
+      ],
+      "collections": ["armadylean_ii", "museum_armadylean_ii", "wise_am_the_music_man"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "amphora": {
+      "id": "amphora",
+      "name": "Amphora",
+      "level": 92,
+      "xp": 11666.7,
+      "chronote_value": 742,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 34 },
+        { "material_id": "keramos", "qty": 46 }
+      ],
+      "collections": ["saradominist_iii", "museum_saradominist_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "rod_of_asclepius": {
+      "id": "rod_of_asclepius",
+      "name": "Rod of Asclepius",
+      "level": 92,
+      "xp": 11666.7,
+      "chronote_value": 742,
+      "materials_required": [
+        { "material_id": "white_marble", "qty": 30 },
+        { "material_id": "star_of_saradomin", "qty": 24 },
+        { "material_id": "goldrune", "qty": 26 }
+      ],
+      "collections": ["showy_fings", "saradominist_iii", "museum_saradominist_iii"],
+      "other_uses": 1,
+      "other_uses_notes": "Restoring the 'Statue of Tromple'.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "zarosian_ewer": {
+      "id": "zarosian_ewer",
+      "name": "Zarosian ewer",
+      "level": 93,
+      "xp": 12500.0,
+      "chronote_value": 760,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 52 },
+        { "material_id": "zarosian_insignia", "qty": 30 }
+      ],
+      "collections": ["zarosian_iii", "museum_zarosian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "zarosian_stein": {
+      "id": "zarosian_stein",
+      "name": "Zarosian stein",
+      "level": 93,
+      "xp": 12500.0,
+      "chronote_value": 760,
+      "materials_required": [
+        { "material_id": "third_age_iron", "qty": 16 },
+        { "material_id": "imperial_steel", "qty": 36 },
+        { "material_id": "zarosian_insignia", "qty": 30 }
+      ],
+      "collections": ["zarosian_iii", "museum_zarosian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "beastkeeper_helm": {
+      "id": "beastkeeper_helm",
+      "name": "Beastkeeper helm",
+      "level": 94,
+      "xp": 13333.3,
+      "chronote_value": 776,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 16 },
+        { "material_id": "vulcanised_rubber", "qty": 24 },
+        { "material_id": "animal_furs", "qty": 20 },
+        { "material_id": "fossilised_bone", "qty": 24 }
+      ],
+      "collections": ["red_rum_relics_i", "museum_bandosian_ii", "hat_problem"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "idithuun_horn_ring": {
+      "id": "idithuun_horn_ring",
+      "name": "Idithuun horn ring",
+      "level": 94,
+      "xp": 13333.3,
+      "chronote_value": 776,
+      "materials_required": [
+        { "material_id": "yubiusk_clay", "qty": 40 },
+        { "material_id": "vulcanised_rubber", "qty": 44 }
+      ],
+      "collections": ["green_gobbo_goodies_ii", "museum_bandosian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "nosorog_sculpture": {
+      "id": "nosorog_sculpture",
+      "name": "'Nosorog!' sculpture",
+      "level": 94,
+      "xp": 13333.3,
+      "chronote_value": 776,
+      "materials_required": [
+        { "material_id": "yubiusk_clay", "qty": 30 },
+        { "material_id": "malachite_green", "qty": 24 },
+        { "material_id": "warforged_bronze", "qty": 30 }
+      ],
+      "collections": ["red_rum_relics_i", "museum_bandosian_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "dayguard_shield": {
+      "id": "dayguard_shield",
+      "name": "Dayguard shield",
+      "level": 95,
+      "xp": 14166.7,
+      "chronote_value": 778,
+      "materials_required": [
+        { "material_id": "stormguard_steel", "qty": 36 },
+        { "material_id": "wings_of_war", "qty": 28 },
+        { "material_id": "white_oak", "qty": 20 }
+      ],
+      "collections": ["armadylean_ii", "museum_armadylean_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "stormguard_gerege": {
+      "id": "stormguard_gerege",
+      "name": "Stormguard gerege",
+      "level": 95,
+      "xp": 14166.7,
+      "chronote_value": 778,
+      "materials_required": [
+        { "material_id": "stormguard_steel", "qty": 36 },
+        { "material_id": "wings_of_war", "qty": 28 },
+        { "material_id": "goldrune", "qty": 20 }
+      ],
+      "collections": ["armadylean_ii", "museum_armadylean_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing 'Howl's Floating Workshop'.",
+      "god": "",
+      "source": ""
+    },
+
+    "kilaya": {
+      "id": "kilaya",
+      "name": "Kilaya",
+      "level": 96,
+      "xp": 15000.0,
+      "chronote_value": 794,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 46 },
+        { "material_id": "compass_rose", "qty": 40 }
+      ],
+      "collections": ["dragonkin_i", "museum_dragonkin_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "vazara": {
+      "id": "vazara",
+      "name": "Vazara",
+      "level": 96,
+      "xp": 15000.0,
+      "chronote_value": 794,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 30 },
+        { "material_id": "compass_rose", "qty": 28 },
+        { "material_id": "goldrune", "qty": 28 }
+      ],
+      "collections": ["dragonkin_i", "museum_dragonkin_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "ourg_megahitter": {
+      "id": "ourg_megahitter",
+      "name": "Ourg megahitter",
+      "level": 97,
+      "xp": 15833.3,
+      "chronote_value": 810,
+      "materials_required": [
+        { "material_id": "white_oak", "qty": 20 },
+        { "material_id": "leather_scraps", "qty": 20 },
+        { "material_id": "orthenglass", "qty": 26 },
+        { "material_id": "malachite_green", "qty": 22 }
+      ],
+      "collections": ["red_rum_relics_ii", "museum_bandosian_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Unlocks Asgarnia Smith as a researcher.",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "ourg_tower_goblin_cower_shield": {
+      "id": "ourg_tower_goblin_cower_shield",
+      "name": "Ourg tower/goblin cower shield",
+      "level": 97,
+      "xp": 15833.3,
+      "chronote_value": 810,
+      "materials_required": [
+        { "material_id": "mark_of_the_kyzaj", "qty": 20 },
+        { "material_id": "third_age_iron", "qty": 26 },
+        { "material_id": "leather_scraps", "qty": 22 },
+        { "material_id": "white_oak", "qty": 20 }
+      ],
+      "collections": ["museum_bandosian_ii", "red_rum_relics_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "garagorshuun_anchor": {
+      "id": "garagorshuun_anchor",
+      "name": "Garagorshuun anchor",
+      "level": 97,
+      "xp": 15833.3,
+      "chronote_value": 810,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 32 },
+        { "material_id": "mark_of_the_kyzaj", "qty": 26 },
+        { "material_id": "third_age_iron", "qty": 30 }
+      ],
+      "collections": ["green_gobbo_goodies_ii", "museum_bandosian_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Acquiring the 'Green skull cave painting'.",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "golem_heart": {
+      "id": "golem_heart",
+      "name": "Golem heart",
+      "level": 98,
+      "xp": 16666.7,
+      "chronote_value": 826,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 34 },
+        { "material_id": "quintessence", "qty": 24 },
+        { "material_id": "orthenglass", "qty": 16 },
+        { "material_id": "soapstone", "qty": 16 }
+      ],
+      "collections": ["armadylean_ii", "museum_armadylean_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Creating the 'Golem framework'.",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "golem_instruction": {
+      "id": "golem_instruction",
+      "name": "Golem instruction",
+      "level": 98,
+      "xp": 16666.7,
+      "chronote_value": 826,
+      "materials_required": [
+        { "material_id": "quintessence", "qty": 46 },
+        { "material_id": "vellum", "qty": 44 },
+        { "material_id": "black_mushroom_ink", "qty": 1 }
+      ],
+      "collections": ["armadylean_ii", "knowledge_is_power", "museum_armadylean_ii"],
+      "other_uses": 2,
+      "other_uses_notes": "Creating the 'Golem framework' and unlocks Elissa Giovanni as a researcher.",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "hellfire_haladie": {
+      "id": "hellfire_haladie",
+      "name": "Hellfire haladie",
+      "level": 98,
+      "xp": 16666.7,
+      "chronote_value": 826,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 44 },
+        { "material_id": "third_age_iron", "qty": 26 },
+        { "material_id": "leather_scraps", "qty": 20 }
+      ],
+      "collections": ["museum_zamorakian_iii", "zamorakian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "hellfire_katar": {
+      "id": "hellfire_katar",
+      "name": "Hellfire katar",
+      "level": 98,
+      "xp": 16666.7,
+      "chronote_value": 826,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 50 },
+        { "material_id": "leather_scraps", "qty": 40 }
+      ],
+      "collections": ["museum_zamorakian_iii", "zamorakian_iii"],
+      "other_uses": 2,
+      "other_uses_notes": "2 to acquire the 'The Rings of Razulei' from Dagon the Gatekeeper.",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "hellfire_zaghnal": {
+      "id": "hellfire_zaghnal",
+      "name": "Hellfire zaghnal",
+      "level": 98,
+      "xp": 16666.7,
+      "chronote_value": 826,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 38 },
+        { "material_id": "white_oak", "qty": 26 },
+        { "material_id": "orthenglass", "qty": 26 }
+      ],
+      "collections": ["museum_zamorakian_iii", "zamorakian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "death_mask": {
+      "id": "death_mask",
+      "name": "Death mask",
+      "level": 99,
+      "xp": 17500.0,
+      "chronote_value": 828,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 56 },
+        { "material_id": "soapstone", "qty": 34 }
+      ],
+      "collections": ["dragonkin_i", "museum_dragonkin_i"],
+      "other_uses": 1,
+      "other_uses_notes": "Acquiring the 'Evil Bob's Catspaw' from Bob the Cat.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "dragonkin_calendar": {
+      "id": "dragonkin_calendar",
+      "name": "Dragonkin calendar",
+      "level": 99,
+      "xp": 17500.0,
+      "chronote_value": 828,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 34 },
+        { "material_id": "carbon_black", "qty": 28 },
+        { "material_id": "compass_rose", "qty": 28 }
+      ],
+      "collections": ["dragonkin_i", "museum_dragonkin_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "dragonkin_staff": {
+      "id": "dragonkin_staff",
+      "name": "Dragonkin staff",
+      "level": 99,
+      "xp": 17500.0,
+      "chronote_value": 828,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 56 },
+        { "material_id": "compass_rose", "qty": 34 }
+      ],
+      "collections": ["dragonkin_i", "museum_dragonkin_i"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "dorgeshuun_spear": {
+      "id": "dorgeshuun_spear",
+      "name": "Dorgeshuun spear",
+      "level": 100,
+      "xp": 18666.7,
+      "chronote_value": 844,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 50 },
+        { "material_id": "white_oak", "qty": 42 }
+      ],
+      "collections": ["museum_bandosian_ii", "green_gobbo_goodies_iii"],
+      "other_uses": 2,
+      "other_uses_notes": "Completing the 'You Have Chosen...' mystery and 'Stick It to Da Boss Man' achievement.",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "forged_in_war_sculpture": {
+      "id": "forged_in_war_sculpture",
+      "name": "'Forged in War' sculpture",
+      "level": 100,
+      "xp": 18666.7,
+      "chronote_value": 844,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 50 },
+        { "material_id": "yubiusk_clay", "qty": 42 },
+        { "material_id": "emerald", "qty": 1 }
+      ],
+      "collections": ["museum_bandosian_ii", "red_rum_relics_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'You Have Chosen...' mystery.",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "kopis_dagger": {
+      "id": "kopis_dagger",
+      "name": "Kopis dagger",
+      "level": 100,
+      "xp": 18666.7,
+      "chronote_value": 844,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 50 },
+        { "material_id": "leather_scraps", "qty": 42 }
+      ],
+      "collections": ["museum_saradominist_iii", "saradominist_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "xiphos_short_sword": {
+      "id": "xiphos_short_sword",
+      "name": "Xiphos short sword",
+      "level": 100,
+      "xp": 18666.7,
+      "chronote_value": 844,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 46 },
+        { "material_id": "leather_scraps", "qty": 46 }
+      ],
+      "collections": ["museum_saradominist_iii", "saradominist_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "smoke_cloud_spell_scroll": {
+      "id": "smoke_cloud_spell_scroll",
+      "name": "'Smoke Cloud' spell scroll",
+      "level": 100,
+      "xp": 18666.7,
+      "chronote_value": 844,
+      "materials_required": [
+        { "material_id": "vellum", "qty": 40 },
+        { "material_id": "ancient_vis", "qty": 20 },
+        { "material_id": "blood_of_orcus", "qty": 32 }
+      ],
+      "collections": ["magic_man", "museum_zarosian_iii", "zarosian_iii", "imperial_sorcery"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing the smoke door in 'The Vault of Shadows'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "vigorem_vial": {
+      "id": "vigorem_vial",
+      "name": "Vigorem vial",
+      "level": 100,
+      "xp": 18666.7,
+      "chronote_value": 844,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 54 },
+        { "material_id": "ancient_vis", "qty": 38 },
+        { "material_id": "molten_glass", "qty": 1 }
+      ],
+      "collections": ["museum_zarosian_iii", "zarosian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "dragon_scalpel": {
+      "id": "dragon_scalpel",
+      "name": "Dragon scalpel",
+      "level": 101,
+      "xp": 19833.3,
+      "chronote_value": 860,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 52 },
+        { "material_id": "felt", "qty": 42 }
+      ],
+      "collections": ["dragonkin_ii", "museum_dragonkin_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Creating the 'Artificer's measure'.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "protective_goggles": {
+      "id": "protective_goggles",
+      "name": "Protective goggles",
+      "level": 101,
+      "xp": 19833.3,
+      "chronote_value": 860,
+      "materials_required": [
+        { "material_id": "felt", "qty": 42 },
+        { "material_id": "orthenglass", "qty": 52 }
+      ],
+      "collections": ["dragonkin_ii", "museum_dragonkin_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "Creating the 'Artificer's measure'.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "dragon_burner": {
+      "id": "dragon_burner",
+      "name": "Dragon burner",
+      "level": 102,
+      "xp": 21000.0,
+      "chronote_value": 862,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 52 },
+        { "material_id": "orgone", "qty": 42 }
+      ],
+      "collections": ["dragonkin_ii", "museum_dragonkin_ii"],
+      "other_uses": 1,
+      "other_uses_notes": "4 to create the 'Orthen furnace core'.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "orthenglass_flask": {
+      "id": "orthenglass_flask",
+      "name": "Orthenglass flask",
+      "level": 102,
+      "xp": 21000.0,
+      "chronote_value": 862,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 34 },
+        { "material_id": "orthenglass", "qty": 60 }
+      ],
+      "collections": ["dragonkin_ii", "museum_dragonkin_ii"],
+      "other_uses": 2,
+      "other_uses_notes": "Creating the 'Artificer's measure' and 'Soma' relic.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "blackfire_lance": {
+      "id": "blackfire_lance",
+      "name": "Blackfire lance",
+      "level": 103,
+      "xp": 22166.7,
+      "chronote_value": 878,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 50 },
+        { "material_id": "quintessence", "qty": 46 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "nightguard_shield": {
+      "id": "nightguard_shield",
+      "name": "Nightguard shield",
+      "level": 103,
+      "xp": 22166.7,
+      "chronote_value": 878,
+      "materials_required": [
+        { "material_id": "stormguard_steel", "qty": 30 },
+        { "material_id": "wings_of_war", "qty": 36 },
+        { "material_id": "white_oak", "qty": 30 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "projection_attuner": {
+      "id": "projection_attuner",
+      "name": "Projection attuner",
+      "level": 103,
+      "xp": 22166.7,
+      "chronote_value": 878,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 28 },
+        { "material_id": "orthenglass", "qty": 28 },
+        { "material_id": "dragon_metal", "qty": 40 }
+      ],
+      "collections": ["dragonkin_vii", "museum_dragonkin_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "golden_projection_needle": {
+      "id": "golden_projection_needle",
+      "name": "Golden projection 'needle'",
+      "level": 103,
+      "xp": 22166.7,
+      "chronote_value": 878,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 36 },
+        { "material_id": "dragon_metal", "qty": 60 }
+      ],
+      "collections": ["dragonkin_vii", "museum_dragonkin_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "huzamogaarb_chaos_crown": {
+      "id": "huzamogaarb_chaos_crown",
+      "name": "Huzamogaarb chaos crown",
+      "level": 104,
+      "xp": 23333.3,
+      "chronote_value": 894,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 44 },
+        { "material_id": "third_age_iron", "qty": 34 },
+        { "material_id": "eye_of_dagon", "qty": 20 }
+      ],
+      "collections": ["green_gobbo_goodies_iii", "hat_problem", "museum_bandosian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "saragorgak_star_crown": {
+      "id": "saragorgak_star_crown",
+      "name": "Saragorgak star crown",
+      "level": 104,
+      "xp": 23333.3,
+      "chronote_value": 894,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 44 },
+        { "material_id": "third_age_iron", "qty": 34 },
+        { "material_id": "star_of_saradomin", "qty": 20 }
+      ],
+      "collections": ["green_gobbo_goodies_iii", "hat_hoarder", "museum_bandosian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "possession_metal_sculpture": {
+      "id": "possession_metal_sculpture",
+      "name": "'Possession' metal sculpture",
+      "level": 104,
+      "xp": 23333.3,
+      "chronote_value": 894,
+      "materials_required": [
+        { "material_id": "eye_of_dagon", "qty": 24 },
+        { "material_id": "chaotic_brimstone", "qty": 30 },
+        { "material_id": "third_age_iron", "qty": 44 }
+      ],
+      "collections": ["museum_zamorakian_iii", "zamorakian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "trishula": {
+      "id": "trishula",
+      "name": "Trishula",
+      "level": 104,
+      "xp": 23333.3,
+      "chronote_value": 894,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 48 },
+        { "material_id": "eye_of_dagon", "qty": 30 },
+        { "material_id": "third_age_iron", "qty": 20 }
+      ],
+      "collections": ["museum_zamorakian_iii", "zamorakian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "tsutsaroth_piercing": {
+      "id": "tsutsaroth_piercing",
+      "name": "Tsutsaroth piercing",
+      "level": 104,
+      "xp": 23333.3,
+      "chronote_value": 894,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 44 },
+        { "material_id": "chaotic_brimstone", "qty": 30 },
+        { "material_id": "cadmium_red", "qty": 24 }
+      ],
+      "collections": ["museum_zamorakian_iii", "zamorakian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "hallowed_be_the_everlight_painting": {
+      "id": "hallowed_be_the_everlight_painting",
+      "name": "'Hallowed Be the Everlight' painting",
+      "level": 105,
+      "xp": 24500.0,
+      "chronote_value": 910,
+      "materials_required": [
+        { "material_id": "cobalt_blue", "qty": 52 },
+        { "material_id": "white_oak", "qty": 16 },
+        { "material_id": "samite_silk", "qty": 16 },
+        { "material_id": "vellum", "qty": 16 }
+      ],
+      "collections": ["museum_saradominist_iv", "radiant_renaissance", "saradominist_iv"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Hallowed Be...' mystery.",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "the_lord_of_light_painting": {
+      "id": "the_lord_of_light_painting",
+      "name": "'The Lord of Light' painting",
+      "level": 105,
+      "xp": 24500.0,
+      "chronote_value": 910,
+      "materials_required": [
+        { "material_id": "cobalt_blue", "qty": 52 },
+        { "material_id": "white_oak", "qty": 16 },
+        { "material_id": "samite_silk", "qty": 16 },
+        { "material_id": "vellum", "qty": 16 }
+      ],
+      "collections": ["museum_saradominist_iv", "radiant_renaissance", "saradominist_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "the_pride_of_padosan_painting": {
+      "id": "the_pride_of_padosan_painting",
+      "name": "'The Pride of Padosan' painting",
+      "level": 105,
+      "xp": 24500.0,
+      "chronote_value": 910,
+      "materials_required": [
+        { "material_id": "cobalt_blue", "qty": 52 },
+        { "material_id": "white_oak", "qty": 16 },
+        { "material_id": "samite_silk", "qty": 16 },
+        { "material_id": "vellum", "qty": 16 }
+      ],
+      "collections": ["museum_saradominist_iv", "radiant_renaissance", "saradominist_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "meditation_pipe": {
+      "id": "meditation_pipe",
+      "name": "Meditation pipe",
+      "level": 106,
+      "xp": 25666.7,
+      "chronote_value": 912,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 60 },
+        { "material_id": "dragon_metal", "qty": 40 }
+      ],
+      "collections": ["dragonkin_iii", "museum_dragonkin_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "personal_totem": {
+      "id": "personal_totem",
+      "name": "Personal totem",
+      "level": 106,
+      "xp": 25666.7,
+      "chronote_value": 912,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 48 },
+        { "material_id": "carbon_black", "qty": 26 },
+        { "material_id": "compass_rose", "qty": 26 }
+      ],
+      "collections": ["dragonkin_iii", "museum_dragonkin_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "singing_bowl": {
+      "id": "singing_bowl",
+      "name": "Singing bowl",
+      "level": 106,
+      "xp": 25666.7,
+      "chronote_value": 912,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 60 },
+        { "material_id": "dragon_metal", "qty": 40 }
+      ],
+      "collections": ["dragonkin_iii", "museum_dragonkin_iii"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Fragmented Memories' mystery.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "ancient_magic_tablet": {
+      "id": "ancient_magic_tablet",
+      "name": "Ancient magic tablet",
+      "level": 107,
+      "xp": 27000.0,
+      "chronote_value": 942,
+      "materials_required": [
+        { "material_id": "ancient_vis", "qty": 40 },
+        { "material_id": "blood_of_orcus", "qty": 64 }
+      ],
+      "collections": ["museum_zarosian_iii", "zarosian_iii", "imperial_sorcery"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "animate_dead_spell_scroll": {
+      "id": "animate_dead_spell_scroll",
+      "name": "'Animate Dead' spell scroll",
+      "level": 107,
+      "xp": 27000.0,
+      "chronote_value": 942,
+      "materials_required": [
+        { "material_id": "vellum", "qty": 40 },
+        { "material_id": "ancient_vis", "qty": 24 },
+        { "material_id": "blood_of_orcus", "qty": 40 }
+      ],
+      "collections": ["magic_man", "museum_zarosian_iii", "zarosian_iii", "imperial_sorcery"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing the shadow door in 'The Vault of Shadows'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "portable_phylactery": {
+      "id": "portable_phylactery",
+      "name": "Portable phylactery",
+      "level": 107,
+      "xp": 27000.0,
+      "chronote_value": 942,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 48 },
+        { "material_id": "blood_of_orcus", "qty": 36 },
+        { "material_id": "ancient_vis", "qty": 20 }
+      ],
+      "collections": ["magic_man", "museum_zarosian_iii", "zarosian_iii"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Forgotten Prisoner' mystery.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "comfort_gatestone": {
+      "id": "comfort_gatestone",
+      "name": "Comfort gatestone",
+      "level": 107,
+      "xp": 27000.0,
+      "chronote_value": 942,
+      "materials_required": [
+        { "material_id": "orthenglass", "qty": 40 },
+        { "material_id": "orgone", "qty": 34 },
+        { "material_id": "compass_rose", "qty": 30 }
+      ],
+      "collections": ["dragonkin_vii", "museum_dragonkin_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "halaks_cube": {
+      "id": "halaks_cube",
+      "name": "Halak's cube",
+      "level": 107,
+      "xp": 27000.0,
+      "chronote_value": 942,
+      "materials_required": [
+        { "material_id": "compass_rose", "qty": 36 },
+        { "material_id": "carbon_black", "qty": 40 },
+        { "material_id": "orgone", "qty": 28 }
+      ],
+      "collections": ["dragonkin_vii", "museum_dragonkin_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "lingam_stone": {
+      "id": "lingam_stone",
+      "name": "Lingam stone",
+      "level": 108,
+      "xp": 28333.3,
+      "chronote_value": 958,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 44 },
+        { "material_id": "carbon_black", "qty": 30 },
+        { "material_id": "compass_rose", "qty": 32 }
+      ],
+      "collections": ["dragonkin_iii", "museum_dragonkin_iii"],
+      "other_uses": 1,
+      "other_uses_notes": "Accessing 'Orthen - Xolo city'.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "master_control": {
+      "id": "master_control",
+      "name": "Master control",
+      "level": 108,
+      "xp": 28333.3,
+      "chronote_value": 958,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 30 },
+        { "material_id": "carbon_black", "qty": 32 },
+        { "material_id": "compass_rose", "qty": 44 }
+      ],
+      "collections": ["dragonkin_iii", "museum_dragonkin_iii"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Fragmented Memories' mystery.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "the_enlightened_soul_scroll": {
+      "id": "the_enlightened_soul_scroll",
+      "name": "'The Enlightened Soul' scroll",
+      "level": 109,
+      "xp": 29666.7,
+      "chronote_value": 988,
+      "materials_required": [
+        { "material_id": "star_of_saradomin", "qty": 50 },
+        { "material_id": "vellum", "qty": 60 }
+      ],
+      "collections": ["knowledge_is_power", "museum_saradominist_iv", "saradominist_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "the_eudoxian_elements_tablet": {
+      "id": "the_eudoxian_elements_tablet",
+      "name": "'The Eudoxian Elements' tablet",
+      "level": 109,
+      "xp": 29666.7,
+      "chronote_value": 988,
+      "materials_required": [
+        { "material_id": "white_marble", "qty": 60 },
+        { "material_id": "goldrune", "qty": 50 }
+      ],
+      "collections": ["knowledge_is_power", "museum_saradominist_iv", "saradominist_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "drogokishuun_hook_sword": {
+      "id": "drogokishuun_hook_sword",
+      "name": "Drogokishuun hook sword",
+      "level": 110,
+      "xp": 31000.0,
+      "chronote_value": 1004,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 44 },
+        { "material_id": "malachite_green", "qty": 36 },
+        { "material_id": "fossilised_bone", "qty": 32 }
+      ],
+      "collections": ["green_gobbo_goodies_iii", "museum_bandosian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "hobgoblin_mansticker": {
+      "id": "hobgoblin_mansticker",
+      "name": "Hobgoblin mansticker",
+      "level": 110,
+      "xp": 31000.0,
+      "chronote_value": 1004,
+      "materials_required": [
+        { "material_id": "warforged_bronze", "qty": 66 },
+        { "material_id": "fossilised_bone", "qty": 46 }
+      ],
+      "collections": ["museum_bandosian_iii", "red_rum_relics_ii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "chaos_elemental_trophy": {
+      "id": "chaos_elemental_trophy",
+      "name": "Chaos Elemental trophy",
+      "level": 110,
+      "xp": 31000.0,
+      "chronote_value": 1004,
+      "materials_required": [
+        { "material_id": "chaotic_brimstone", "qty": 52 },
+        { "material_id": "white_oak", "qty": 30 },
+        { "material_id": "hellfire_metal", "qty": 30 }
+      ],
+      "collections": ["museum_zamorakian_iv", "zamorakian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "virius_trophy": {
+      "id": "virius_trophy",
+      "name": "Virius trophy",
+      "level": 110,
+      "xp": 31000.0,
+      "chronote_value": 1004,
+      "materials_required": [
+        { "material_id": "demonhide", "qty": 44 },
+        { "material_id": "white_oak", "qty": 34 },
+        { "material_id": "orthenglass", "qty": 34 }
+      ],
+      "collections": ["museum_zamorakian_iv", "zamorakian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "flat_cap": {
+      "id": "flat_cap",
+      "name": "Flat cap",
+      "level": 111,
+      "xp": 32333.3,
+      "chronote_value": 1004,
+      "materials_required": [
+        { "material_id": "armadylean_yellow", "qty": 60 },
+        { "material_id": "samite_silk", "qty": 54 }
+      ],
+      "collections": ["armadylean_iii", "hat_problem", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "night_owl_flight_goggles": {
+      "id": "night_owl_flight_goggles",
+      "name": "Night owl flight goggles",
+      "level": 111,
+      "xp": 32333.3,
+      "chronote_value": 1004,
+      "materials_required": [
+        { "material_id": "armadylean_yellow", "qty": 44 },
+        { "material_id": "leather_scraps", "qty": 40 },
+        { "material_id": "orthenglass", "qty": 30 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "prototype_godbow": {
+      "id": "prototype_godbow",
+      "name": "Prototype godbow",
+      "level": 112,
+      "xp": 33666.7,
+      "chronote_value": 1050,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 50 },
+        { "material_id": "quintessence", "qty": 34 },
+        { "material_id": "wings_of_war", "qty": 34 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "prototype_godstaff": {
+      "id": "prototype_godstaff",
+      "name": "Prototype godstaff",
+      "level": 112,
+      "xp": 33666.7,
+      "chronote_value": 1050,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 50 },
+        { "material_id": "quintessence", "qty": 34 },
+        { "material_id": "wings_of_war", "qty": 34 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "prototype_godsword": {
+      "id": "prototype_godsword",
+      "name": "Prototype godsword",
+      "level": 112,
+      "xp": 33666.7,
+      "chronote_value": 1050,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 50 },
+        { "material_id": "wings_of_war", "qty": 34 },
+        { "material_id": "goldrune", "qty": 34 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 2,
+      "other_uses_notes": "Completing the 'That's Not How it Works' achievement and creating 'The Subtle Blade' relic.",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "xolo_hard_hat": {
+      "id": "xolo_hard_hat",
+      "name": "Xolo hard hat",
+      "level": 113,
+      "xp": 35000.0,
+      "chronote_value": 1066,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 54 },
+        { "material_id": "dragon_metal", "qty": 66 }
+      ],
+      "collections": ["dragonkin_iv", "museum_dragonkin_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "xolo_pickaxe": {
+      "id": "xolo_pickaxe",
+      "name": "Xolo pickaxe",
+      "level": 113,
+      "xp": 35000.0,
+      "chronote_value": 1066,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 36 },
+        { "material_id": "dragon_metal", "qty": 50 },
+        { "material_id": "orgone", "qty": 34 }
+      ],
+      "collections": ["dragonkin_iv", "museum_dragonkin_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "portable_portal_generator": {
+      "id": "portable_portal_generator",
+      "name": "Portable portal generator",
+      "level": 113,
+      "xp": 35000.0,
+      "chronote_value": 1066,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 50 },
+        { "material_id": "orthenglass", "qty": 36 },
+        { "material_id": "goldrune", "qty": 34 }
+      ],
+      "collections": ["dragonkin_vii", "museum_dragonkin_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "warped_trinket": {
+      "id": "warped_trinket",
+      "name": "Warped trinket",
+      "level": 113,
+      "xp": 35000.0,
+      "chronote_value": 1066,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 30 },
+        { "material_id": "orthenglass", "qty": 30 },
+        { "material_id": "soapstone", "qty": 30 },
+        { "material_id": "goldrune", "qty": 30 }
+      ],
+      "collections": ["dragonkin_vii", "museum_dragonkin_vii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "daemonheim"
+    },
+
+    "praetorian_hood": {
+      "id": "praetorian_hood",
+      "name": "Praetorian hood",
+      "level": 114,
+      "xp": 36666.7,
+      "chronote_value": 1096,
+      "materials_required": [
+        { "material_id": "ancient_vis", "qty": 36 },
+        { "material_id": "samite_silk", "qty": 48 },
+        { "material_id": "zarosian_insignia", "qty": 40 },
+        { "material_id": "death_rune", "qty": 30 }
+      ],
+      "collections": ["hat_problem", "museum_zarosian_iv", "zarosian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "praetorian_robes": {
+      "id": "praetorian_robes",
+      "name": "Praetorian robes",
+      "level": 114,
+      "xp": 36666.7,
+      "chronote_value": 1096,
+      "materials_required": [
+        { "material_id": "ancient_vis", "qty": 30 },
+        { "material_id": "samite_silk", "qty": 54 },
+        { "material_id": "zarosian_insignia", "qty": 40 },
+        { "material_id": "death_rune", "qty": 50 }
+      ],
+      "collections": ["museum_zarosian_iv", "zarosian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "praetorian_staff": {
+      "id": "praetorian_staff",
+      "name": "Praetorian staff",
+      "level": 114,
+      "xp": 36666.7,
+      "chronote_value": 1096,
+      "materials_required": [
+        { "material_id": "imperial_steel", "qty": 36 },
+        { "material_id": "ancient_vis", "qty": 58 },
+        { "material_id": "zarosian_insignia", "qty": 30 },
+        { "material_id": "death_rune", "qty": 100 }
+      ],
+      "collections": ["museum_zarosian_iv", "zarosian_iv"],
+      "other_uses": 1,
+      "other_uses_notes": "Creating the 'Inquisitor staff'.",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "kalikra_chieftain_crown": {
+      "id": "kalikra_chieftain_crown",
+      "name": "Kal-i-kra chieftain crown",
+      "level": 115,
+      "xp": 38333.3,
+      "chronote_value": 1112,
+      "materials_required": [
+        { "material_id": "yubiusk_clay", "qty": 66 },
+        { "material_id": "animal_furs", "qty": 60 }
+      ],
+      "collections": ["hat_hoarder", "museum_bandosian_iii", "red_rum_relics_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "kalikra_mace": {
+      "id": "kalikra_mace",
+      "name": "Kal-i-kra mace",
+      "level": 115,
+      "xp": 38333.3,
+      "chronote_value": 1112,
+      "materials_required": [
+        { "material_id": "vulcanised_rubber", "qty": 42 },
+        { "material_id": "third_age_iron", "qty": 44 },
+        { "material_id": "fossilised_bone", "qty": 40 }
+      ],
+      "collections": ["museum_bandosian_iii", "red_rum_relics_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "kalikra_warhorn": {
+      "id": "kalikra_warhorn",
+      "name": "Kal-i-kra warhorn",
+      "level": 115,
+      "xp": 38333.3,
+      "chronote_value": 1112,
+      "materials_required": [
+        { "material_id": "vulcanised_rubber", "qty": 44 },
+        { "material_id": "fossilised_bone", "qty": 42 },
+        { "material_id": "animal_furs", "qty": 40 }
+      ],
+      "collections": ["museum_bandosian_iii", "red_rum_relics_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "spear_of_annihilation": {
+      "id": "spear_of_annihilation",
+      "name": "Spear of Annihilation",
+      "level": 115,
+      "xp": 38333.3,
+      "chronote_value": 10730,
+      "materials_required": [
+        { "material_id": "spear_of_annihilation_tip", "qty": 1 },
+        { "material_id": "spear_of_annihilation_with_shaft", "qty": 1 },
+        { "material_id": "spear_of_annihilation_with_shaft_and_spokes", "qty": 1 },
+        { "material_id": "third_age_iron", "qty": 500 },
+        { "material_id": "white_oak", "qty": 500 },
+        { "material_id": "goldrune", "qty": 800 },
+        { "material_id": "aetherium_alloy", "qty": 500 },
+        { "material_id": "warforged_bronze", "qty": 500 },
+        { "material_id": "chaotic_spike", "qty": 5 },
+        { "material_id": "vulcanised_rubber", "qty": 500 },
+        { "material_id": "malachite_green", "qty": 500 }
+      ],
+      "collections": [""],
+      "other_uses": 1,
+      "other_uses_notes": "Total materials for all steps to acquire T90 spear.",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "tsutsaroth_helm": {
+      "id": "tsutsaroth_helm",
+      "name": "Tsutsaroth helm",
+      "level": 116,
+      "xp": 40000.0,
+      "chronote_value": 1142,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 50 },
+        { "material_id": "eye_of_dagon", "qty": 40 },
+        { "material_id": "goldrune", "qty": 40 }
+      ],
+      "collections": ["hat_hoarder", "museum_zamorakian_iv", "zamorakian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "tsutsaroth_pauldron": {
+      "id": "tsutsaroth_pauldron",
+      "name": "Tsutsaroth pauldron",
+      "level": 116,
+      "xp": 40000.0,
+      "chronote_value": 1142,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 40 },
+        { "material_id": "goldrune", "qty": 50 },
+        { "material_id": "eye_of_dagon", "qty": 40 }
+      ],
+      "collections": ["museum_zamorakian_iv", "zamorakian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "tsutsaroth_urumi": {
+      "id": "tsutsaroth_urumi",
+      "name": "Tsutsaroth urumi",
+      "level": 116,
+      "xp": 40000.0,
+      "chronote_value": 1142,
+      "materials_required": [
+        { "material_id": "hellfire_metal", "qty": 50 },
+        { "material_id": "eye_of_dagon", "qty": 40 },
+        { "material_id": "third_age_iron", "qty": 40 }
+      ],
+      "collections": ["museum_zamorakian_iv", "zamorakian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zamorak",
+      "source": "infernal_source"
+    },
+
+    "doru_spear": {
+      "id": "doru_spear",
+      "name": "Doru spear",
+      "level": 117,
+      "xp": 41666.7,
+      "chronote_value": 1158,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 70 },
+        { "material_id": "white_oak", "qty": 62 }
+      ],
+      "collections": ["museum_saradominist_iv", "saradominist_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "kontos_lance": {
+      "id": "kontos_lance",
+      "name": "Kontos lance",
+      "level": 117,
+      "xp": 41666.7,
+      "chronote_value": 1158,
+      "materials_required": [
+        { "material_id": "everlight_silvthril", "qty": 70 },
+        { "material_id": "samite_silk", "qty": 62 }
+      ],
+      "collections": ["museum_saradominist_iv", "saradominist_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "saradomin",
+      "source": "everlight"
+    },
+
+    "chuluu_stone": {
+      "id": "chuluu_stone",
+      "name": "Chuluu stone",
+      "level": 118,
+      "xp": 43333.3,
+      "chronote_value": 1174,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 40 },
+        { "material_id": "quintessence", "qty": 30 },
+        { "material_id": "soapstone", "qty": 40 },
+        { "material_id": "goldrune", "qty": 24 }
+      ],
+      "collections": ["armadylean_iii", "magic_man", "museum_armadylean_iii"],
+      "other_uses": 1,
+      "other_uses_notes": "Creating the 'Experimental Aether Reactor'.",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "quintessence_counter": {
+      "id": "quintessence_counter",
+      "name": "Quintessence counter",
+      "level": 118,
+      "xp": 43333.3,
+      "chronote_value": 1174,
+      "materials_required": [
+        { "material_id": "quintessence", "qty": 54 },
+        { "material_id": "stormguard_steel", "qty": 40 },
+        { "material_id": "white_oak", "qty": 40 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "spherical_astrolabe": {
+      "id": "spherical_astrolabe",
+      "name": "Spherical astrolabe",
+      "level": 118,
+      "xp": 43333.3,
+      "chronote_value": 1174,
+      "materials_required": [
+        { "material_id": "aetherium_alloy", "qty": 46 },
+        { "material_id": "armadylean_yellow", "qty": 40 },
+        { "material_id": "orthenglass", "qty": 48 }
+      ],
+      "collections": ["armadylean_iii", "museum_armadylean_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "armadyl",
+      "source": "stormguard_citadel"
+    },
+
+    "ancient_globe": {
+      "id": "ancient_globe",
+      "name": "Ancient globe",
+      "level": 118,
+      "xp": 43333.3,
+      "chronote_value": 1174,
+      "materials_required": [
+        { "material_id": "white_oak", "qty": 20 },
+        { "material_id": "tyrian_purple", "qty": 54 },
+        { "material_id": "ancient_vis", "qty": 60 }
+      ],
+      "collections": ["museum_zarosian_iv", "zarosian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "battle_plans": {
+      "id": "battle_plans",
+      "name": "Battle plan",
+      "level": 118,
+      "xp": 43333.3,
+      "chronote_value": 1174,
+      "materials_required": [
+        { "material_id": "vellum", "qty": 40 },
+        { "material_id": "tyrian_purple", "qty": 60 },
+        { "material_id": "ancient_vis", "qty": 34 }
+      ],
+      "collections": ["museum_zarosian_iv", "zarosian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "prima_legio_painting": {
+      "id": "prima_legio_painting",
+      "name": "'Prima Legio' painting",
+      "level": 118,
+      "xp": 43333.3,
+      "chronote_value": 1174,
+      "materials_required": [
+        { "material_id": "white_oak", "qty": 20 },
+        { "material_id": "samite_silk", "qty": 20 },
+        { "material_id": "tyrian_purple", "qty": 74 },
+        { "material_id": "zarosian_insignia", "qty": 20 }
+      ],
+      "collections": ["imperial_impressionism", "museum_zarosian_iv", "zarosian_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "zaros",
+      "source": "khared-et"
+    },
+
+    "da_boss_man_sculpture": {
+      "id": "da_boss_man_sculpture",
+      "name": "'Da Boss Man' sculpture",
+      "level": 119,
+      "xp": 45000.0,
+      "chronote_value": 1204,
+      "materials_required": [
+        { "material_id": "yubiusk_clay", "qty": 50 },
+        { "material_id": "malachite_green", "qty": 44 },
+        { "material_id": "soapstone", "qty": 44 }
+      ],
+      "collections": ["green_gobbo_goodies_iii", "knowledge_is_power", "museum_bandosian_iii", "red_rum_relics_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "horogothgar_cooking_pot": {
+      "id": "horogothgar_cooking_pot",
+      "name": "Horogothgar cooking pot",
+      "level": 119,
+      "xp": 45000.0,
+      "chronote_value": 1204,
+      "materials_required": [
+        { "material_id": "yubiusk_clay", "qty": 60 },
+        { "material_id": "malachite_green", "qty": 38 },
+        { "material_id": "soapstone", "qty": 40 }
+      ],
+      "collections": ["green_gobbo_goodies_iii", "museum_bandosian_iii"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "bandos",
+      "source": "warforge"
+    },
+
+    "xolo_shield": {
+      "id": "xolo_shield",
+      "name": "Xolo shield",
+      "level": 119,
+      "xp": 45000.0,
+      "chronote_value": 1204,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 52 },
+        { "material_id": "orgone", "qty": 44 },
+        { "material_id": "felt", "qty": 42 }
+      ],
+      "collections": ["dragonkin_iv", "museum_dragonkin_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "xolo_spear": {
+      "id": "xolo_spear",
+      "name": "Xolo spear",
+      "level": 119,
+      "xp": 45000.0,
+      "chronote_value": 1204,
+      "materials_required": [
+        { "material_id": "dragon_metal", "qty": 74 },
+        { "material_id": "orgone", "qty": 64 }
+      ],
+      "collections": ["dragonkin_iv", "museum_dragonkin_iv"],
+      "other_uses": 0,
+      "other_uses_notes": "",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "gold_dish": {
+      "id": "gold_dish",
+      "name": "Gold dish",
+      "level": 120,
+      "xp": 46666.7,
+      "chronote_value": 1220,
+      "materials_required": [
+        { "material_id": "goldrune", "qty": 86 },
+        { "material_id": "dragon_metal", "qty": 54 }
+      ],
+      "collections": ["dragonkin_iv", "museum_dragonkin_iv"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Mysterious City' mystery.",
+      "god": "dragonkin",
+      "source": "orthen"
+    },
+
+    "raksha_idol": {
+      "id": "raksha_idol",
+      "name": "'Raksha' idol",
+      "level": 120,
+      "xp": 46666.7,
+      "chronote_value": 1220,
+      "materials_required": [
+        { "material_id": "orgone", "qty": 56 },
+        { "material_id": "dragon_metal", "qty": 44 },
+        { "material_id": "goldrune", "qty": 40 }
+      ],
+      "collections": ["dragonkin_iv", "museum_dragonkin_iv"],
+      "other_uses": 1,
+      "other_uses_notes": "Completing the 'Mysterious City' mystery.",
+      "god": "dragonkin",
+      "source": "orthen"
+    }
+  }
+}
