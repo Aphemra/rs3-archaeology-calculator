@@ -99,7 +99,32 @@
   gap: 10px;
 }
 
-.card-delete {
-  padding: 6px 10px;
-  font-size: 0.9em;
+.card-utility-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+
+  cursor: pointer;
+  padding: 0;
+}
+
+.card-icon-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.card-icon-button:active {
+  transform: translateY(1px);
 }

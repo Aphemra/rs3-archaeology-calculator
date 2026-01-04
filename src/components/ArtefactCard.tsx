@@ -9,9 +9,10 @@ type Props = {
   qty: number;
   onQuantityChange: (new_qty: number) => void;
   onDelete: () => void;
+  onCraft: () => void;
 };
 
-export default function ArtefactCard({ artefact, materials, qty, onQuantityChange, onDelete }: Props) {
+export default function ArtefactCard({ artefact, materials, qty, onQuantityChange, onDelete, onCraft }: Props) {
   return (
     <div className="card">
       <div className="card-header">
@@ -31,9 +32,14 @@ export default function ArtefactCard({ artefact, materials, qty, onQuantityChang
             <NumericInput id={`qty-${artefact.id}`} min={1} value={qty} onChange={onQuantityChange} />
           </div>
 
-          <button className="card-delete" type="button" onClick={onDelete}>
-            Remove
-          </button>
+          <div className="card-utility-actions">
+            <button className="card-icon-button" type="button" onClick={onCraft} title="Craft One">
+              <Icon icon_type="utility" id="craft" box={false} extension="svg" />
+            </button>
+            <button className="card-icon-button" type="button" onClick={onDelete} title="Delete Artefact">
+              <Icon icon_type="utility" id="remove" box={false} extension="svg" />
+            </button>
+          </div>
         </div>
       </div>
       <div className="card-section-title">Material Requirements:</div>

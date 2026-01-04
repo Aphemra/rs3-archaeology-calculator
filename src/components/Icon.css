@@ -24,3 +24,9 @@
 
   object-fit: contain;
 }
+
+.type-utility img {
+  filter: invert(1);
+  width: 22px;
+  height: 22px;
+}

@@ -62,6 +62,51 @@ export default function ArtefactCalculator() {
     setSelected((prev) => prev.filter((x) => x.artefact_id !== artefactId));
   }
 
+  function craftOne(artefactId: string) {
+    const artefact = artefactData.artefacts[artefactId];
+    if (!artefact) return;
+
+    const hasEnough = artefact.materials_required.every((requirement) => {
+      const have = storage[requirement.material_id] ?? 0;
+      return have >= requirement.qty;
+    });
+
+    if (!hasEnough) {
+      alert("Insufficient materials in Material Storage!");
+      return;
+    }
+
+    setSelected((prev) => {
+      const index = prev.findIndex((x) => x.artefact_id === artefactId);
+      if (index < 0) return prev;
+
+      const currentQuantity = prev[index].qty;
+      const nextQuantity = Math.max(0, currentQuantity - 1);
+
+      if (nextQuantity <= 0) {
+        return prev.filter((x) => x.artefact_id !== artefactId);
+      }
+
+      const copy = [...prev];
+      copy[index] = { ...copy[index], qty: nextQuantity };
+      return copy;
+    });
+
+    setStorage((prev) => {
+      const next: Record<string, number> = { ...prev };
+
+      for (const requirement of artefact.materials_required) {
+        const have = next[requirement.material_id] ?? 0;
+        const remaining = have - requirement.qty;
+
+        if (remaining <= 0) delete next[requirement.material_id];
+        else next[requirement.material_id] = remaining;
+      }
+
+      return next;
+    });
+  }
+
   const cards = useMemo(() => {
     return selected
       .map((s) => ({
@@ -91,6 +136,7 @@ export default function ArtefactCalculator() {
               qty={qty}
               onQuantityChange={(n) => changeQuantity(artefact.id, n)}
               onDelete={() => removeArtefact(artefact.id)}
+              onCraft={() => craftOne(artefact.id)}
             />
           ))}
         </div>
