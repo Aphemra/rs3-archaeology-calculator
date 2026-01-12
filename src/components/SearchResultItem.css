@@ -64,3 +64,45 @@
 
   white-space: nowrap;
 }
+
+.option-collection {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.option-collection-chip {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: monospace;
+  font-size: 12px;
+  opacity: 0.9;
+
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.option-collection-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.option-collection-sub {
+  font-family: monospace;
+  font-size: 12px;
+  opacity: 0.8;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 48ch;
+}

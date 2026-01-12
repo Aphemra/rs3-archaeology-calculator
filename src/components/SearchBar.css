@@ -62,3 +62,46 @@
   padding: 10px 12px;
   white-space: nowrap;
 }
+
+.search-toggle {
+  padding: 10px 12px;
+  white-space: nowrap;
+  border-radius: 8px;
+
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+}
+
+.search-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.search-collection-item {
+  width: 100%;
+  text-align: left;
+
+  padding: 10px 10px;
+  border-radius: 8px;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+
+  cursor: pointer;
+}
+
+.search-collection-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.search-collection-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.search-collection-meta {
+  margin-top: 2px;
+  font-size: 12px;
+  opacity: 0.85;
+  font-family: monospace;
+}

@@ -20,7 +20,9 @@ export default function ArtefactCard({ artefact, materials, qty, onQuantityChang
           <Icon icon_type="artefacts" id={artefact.id} box={false} />
           <div className="card-title">
             <div className="card-name">{artefact.name}</div>
-            <div className="card-meta">Lvl. {artefact.level}</div>
+            <div className="card-meta">
+              Lvl. {artefact.level} • {artefact.chronote_value.toLocaleString()} chronotes
+            </div>
           </div>
         </div>
         <div className="card-actions">

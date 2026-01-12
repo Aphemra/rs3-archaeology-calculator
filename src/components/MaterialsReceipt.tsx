@@ -1,13 +1,16 @@
 import "./MaterialsReceipt.css";
 import { useEffect, useRef, useState } from "react";
-import type { ArtefactData, MaterialData, SelectedArtefact } from "../types/archaeology";
+import type { ArtefactData, MaterialData, SelectedArtefact, Collection, CollectionData, SelectedCollection } from "../types/archaeology";
 import Icon from "./Icon";
 
 type Props = {
   selected: SelectedArtefact[];
-  artefact_data: ArtefactData;
-  material_data: MaterialData;
+  selected_collections: SelectedCollection[];
 
+  artefact_data: ArtefactData;
+  collections_data: CollectionData;
+
+  material_data: MaterialData;
   storage: Record<string, number>;
 };
 
@@ -26,7 +29,47 @@ function computeWithStorage(required: number, stored: number) {
   return { req, have, remaining };
 }
 
-export default function MaterialsReceipt({ selected, artefact_data, material_data, storage }: Props) {
+function computeCollectionTotals(collection: Collection, artefact_data: ArtefactData, qty: number): MaterialTotals {
+  const totals: MaterialTotals = {};
+
+  for (const artefactId of collection.artefacts_required) {
+    const artefact = artefact_data.artefacts[artefactId];
+    if (!artefact) continue;
+
+    for (const requirement of artefact.materials_required) {
+      addToTotals(totals, requirement.material_id, requirement.qty * qty);
+    }
+  }
+
+  return totals;
+}
+
+function computeCollectionXp(collection: Collection, artefact_data: ArtefactData, qty: number): number {
+  let sum = 0;
+
+  for (const artefactId of collection.artefacts_required) {
+    const artefact = artefact_data.artefacts[artefactId];
+    const xp = artefact?.xp ?? 0;
+    sum += xp * qty;
+  }
+
+  return sum;
+}
+
+function computeCollectionChronotes(collection: Collection, artefact_data: ArtefactData, qty: number): number {
+  const base = collection.chronote_reward ?? 0;
+
+  let artefactChronotes = 0;
+  for (const artefactId of collection.artefacts_required) {
+    const artefact = artefact_data.artefacts[artefactId];
+    const value = artefact?.chronote_value ?? 0;
+    artefactChronotes += value;
+  }
+
+  return (base + artefactChronotes) * qty;
+}
+
+export default function MaterialsReceipt({ selected, selected_collections, artefact_data, collections_data, material_data, storage }: Props) {
   const [showBreakdown, setShowBreakdown] = useState<boolean>(() => {
     const raw = localStorage.getItem(SHOW_BREAKDOWN_KEY);
     return raw ? raw === "true" : true;
@@ -51,30 +94,54 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
     ro.observe(element);
 
     return () => ro.disconnect();
-  }, [selected.length]);
+  }, [selected.length, selected_collections.length]);
 
-  const perArtefact = selected
-    .map((selection) => {
-      const artefact = artefact_data.artefacts[selection.artefact_id];
-      if (!artefact) return null;
+  const perLine = [
+    ...selected
+      .map((selection) => {
+        const artefact = artefact_data.artefacts[selection.artefact_id];
+        if (!artefact) return null;
 
-      const totals: MaterialTotals = {};
-      for (const requirement of artefact.materials_required) {
-        addToTotals(totals, requirement.material_id, requirement.qty * selection.qty);
-      }
+        const totals: MaterialTotals = {};
+        for (const requirement of artefact.materials_required) {
+          addToTotals(totals, requirement.material_id, requirement.qty * selection.qty);
+        }
 
-      return {
-        artefactId: selection.artefact_id,
-        name: artefact.name,
-        level: artefact.level,
-        qty: selection.qty,
-        totals,
-      };
-    })
-    .filter((x): x is NonNullable<typeof x> => x !== null);
+        return {
+          kind: "artefact" as const,
+          id: selection.artefact_id,
+          name: artefact.name,
+          level: artefact.level,
+          qty: selection.qty,
+          totals,
+          xp: (artefact.xp ?? 0) * selection.qty,
+        };
+      })
+      .filter((x): x is NonNullable<typeof x> => x !== null),
+
+    ...selected_collections
+      .map((selection) => {
+        const collection = collections_data.collections?.[selection.collection_id];
+        if (!collection) return null;
+
+        const totals = computeCollectionTotals(collection, artefact_data, selection.qty);
+        const xp = computeCollectionXp(collection, artefact_data, selection.qty);
+
+        return {
+          kind: "collection" as const,
+          id: selection.collection_id,
+          name: collection.name,
+          level: collection.level,
+          qty: selection.qty,
+          totals,
+          xp,
+        };
+      })
+      .filter((x): x is NonNullable<typeof x> => x !== null),
+  ];
 
   const grandTotal: MaterialTotals = {};
-  for (const line of perArtefact) {
+  for (const line of perLine) {
     for (const [material_id, qty] of Object.entries(line.totals)) {
       addToTotals(grandTotal, material_id, qty);
     }
@@ -86,10 +153,14 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
     return aName.localeCompare(bName);
   });
 
-  const totalXp = perArtefact.reduce((sum, line) => {
-    const artefact = artefact_data.artefacts[line.artefactId];
-    const xp = artefact?.xp ?? 0;
-    return sum + xp * line.qty;
+  const totalXp = perLine.reduce((sum, line) => sum + (line.xp ?? 0), 0);
+
+  const totalSelectedCount = selected.length + selected_collections.length;
+
+  const totalCollectionChronotes = selected_collections.reduce((sum, selection) => {
+    const collection = collections_data.collections?.[selection.collection_id];
+    if (!collection) return sum;
+    return sum + computeCollectionChronotes(collection, artefact_data, selection.qty);
   }, 0);
 
   return (
@@ -108,10 +179,16 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
       <div className="receipt-total-box">
         <div className="receipt-total-heading">
           <span>TOTAL</span>
-          {selected.length > 0 && <span className="receipt-total-xp">{totalXp.toLocaleString()} xp</span>}
+
+          {totalSelectedCount > 0 && (
+            <span className="receipt-total-xp">
+              {totalXp.toLocaleString()} xp
+              {selected_collections.length > 0 && <> • {totalCollectionChronotes.toLocaleString()} chronotes</>}
+            </span>
+          )}
         </div>
 
-        {selected.length === 0 ? (
+        {totalSelectedCount === 0 ? (
           <div className="receipt-empty">No artefacts selected yet.</div>
         ) : sortedGrandTotal.length === 0 ? (
           <div className="receipt-empty">No materials found for selected artefacts.</div>
@@ -141,12 +218,12 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
         )}
       </div>
 
-      {selected.length > 0 && (
+      {totalSelectedCount > 0 && (
         <div className="receipt-breakdown" data-open={showBreakdown ? "true" : "false"} style={{ maxHeight: showBreakdown ? breakdownMaxHeight : 0 }}>
           <div ref={breakdownInnerRef} className="receipt-breakdown-inner">
             <div className="receipt-breakdown-heading"></div>
 
-            {perArtefact.map((line) => {
+            {perLine.map((line) => {
               const materials = Object.entries(line.totals).sort(([aId], [bId]) => {
                 const aName = material_data.materials[aId]?.name ?? aId;
                 const bName = material_data.materials[bId]?.name ?? bId;
@@ -154,10 +231,15 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
               });
 
               return (
-                <div key={line.artefactId} className="receipt-block">
+                <div key={`${line.kind}-${line.id}`} className="receipt-block">
                   <div className="receipt-block-header">
                     <div className="receipt-block-header-left">
-                      <Icon icon_type="artefacts" id={line.artefactId} box={false} />
+                      {line.kind === "collection" ? (
+                        <Icon icon_type="collectors" id={collections_data.collections?.[line.id]?.collector_id ?? "unknown"} box={false} />
+                      ) : (
+                        <Icon icon_type="artefacts" id={line.id} box={false} />
+                      )}
+
                       <div className="receipt-block-title">
                         <span className="receipt-artefact-name">{line.name}</span>
                         <span className="receipt-artefact-meta">Lvl. {line.level}</span>
@@ -166,6 +248,7 @@ export default function MaterialsReceipt({ selected, artefact_data, material_dat
 
                     <div className="receipt-artefact-quantity">{line.qty}</div>
                   </div>
+
                   <span className="receipt-block-title">Materials:</span>
 
                   <ul className="receipt-list">

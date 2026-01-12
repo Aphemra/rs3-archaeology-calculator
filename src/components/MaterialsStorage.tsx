@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import "./MaterialsStorage.css";
 import Icon from "./Icon";
 import NumericInput from "./NumericInput";
-import type { MaterialData, SelectedArtefact, ArtefactData } from "../types/archaeology";
+import type { MaterialData, SelectedArtefact, ArtefactData, Collection, CollectionData, SelectedCollection } from "../types/archaeology";
 
 import { clampNumber } from "../utils/helperUtils";
 
@@ -12,7 +12,10 @@ type Props = {
   onStorageChange: (next: Record<string, number>) => void;
 
   selected_artefacts: SelectedArtefact[];
+  selected_collections: SelectedCollection[];
+
   artefact_data: ArtefactData;
+  collections_data: CollectionData;
 };
 
 const STORAGE_KEY = "archaeology_calculator_material_storage";
@@ -20,7 +23,15 @@ const STORAGE_OPEN_KEY = "archaeology_calculator_material_storage_open";
 const STEP_KEY = "archaeology_calculator_material_step_value";
 const SHOW_ALL_KEY = "archaeology_calculator_material_show_all";
 
-export default function MaterialsStorage({ material_data, storage, onStorageChange, selected_artefacts, artefact_data }: Props) {
+export default function MaterialsStorage({
+  material_data,
+  storage,
+  onStorageChange,
+  selected_artefacts,
+  selected_collections,
+  artefact_data,
+  collections_data,
+}: Props) {
   const materials = useMemo(() => Object.values(material_data.materials), [material_data]);
 
   const [showAll, setShowAll] = useState<boolean>(() => {
@@ -43,8 +54,23 @@ export default function MaterialsStorage({ material_data, storage, onStorageChan
         ids.add(requirement.material_id);
       }
     }
+
+    for (const selection of selected_collections) {
+      const collection: Collection | undefined = collections_data.collections?.[selection.collection_id];
+      if (!collection) continue;
+
+      for (const artefactId of collection.artefacts_required) {
+        const artefact = artefact_data.artefacts[artefactId];
+        if (!artefact) continue;
+
+        for (const requirement of artefact.materials_required) {
+          ids.add(requirement.material_id);
+        }
+      }
+    }
+
     return ids;
-  }, [selected_artefacts, artefact_data]);
+  }, [selected_artefacts, selected_collections, artefact_data, collections_data]);
 
   const [stepX, setStepX] = useState<number>(() => {
     const raw = localStorage.getItem(STEP_KEY);

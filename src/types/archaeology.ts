@@ -53,3 +53,49 @@ export type SelectedArtefact = {
   artefact_id: string;
   qty: number;
 };
+
+export type SelectedCollection = {
+  collection_id: string;
+  qty: number;
+};
+
+export type SearchMode = "artefacts" | "collections";
+
+// Collection related types
+
+export type CollectionData = {
+  collections: Record<string, Collection>;
+};
+
+export type Collection = {
+  id: string;
+  name: string;
+  level: number;
+  chronote_reward: number;
+  collector_id: string;
+  artefacts_required: string[];
+};
+
+export type CollectionIndex = {
+  id: string;
+  name: string;
+  normalized_name: string;
+  tokens: string[];
+  level: number;
+  chronote_reward: number;
+  collector_id: string;
+  artefacts_required: string[];
+  artefacts_required_count: number;
+};
+
+// Collector related types
+
+export type Collector = {
+  id: string;
+  name: string;
+  location: string;
+};
+
+export type CollectorData = {
+  collectors: Record<string, Collector>;
+};

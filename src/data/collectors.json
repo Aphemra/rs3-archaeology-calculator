@@ -3,7 +3,7 @@
     "velucia": {
       "id": "velucia",
       "name": "Velucia",
-      "location": "Outside the Archaeology Guild"
+      "location": "Archaeology Guild"
     },
 
     "wise_old_man": {
@@ -15,37 +15,37 @@
     "soran": {
       "id": "soran",
       "name": "Soran, Emmissary of Zaros",
-      "location": "South of Varrock west bank"
+      "location": "Varrock West Bank"
     },
 
     "sir_atcha": {
       "id": "sir_atcha",
       "name": "Sir Atcha",
-      "location": "White Knights' Castle courtyard in Falador"
+      "location": "White Knights' Castle"
     },
 
     "sharrigan": {
       "id": "sharrigan",
       "name": "Sharrigan",
-      "location": "Anachronia base camp"
+      "location": "Anachronia Camp"
     },
 
     "lowse": {
       "id": "lowse",
       "name": "Lowse",
-      "location": "Armadyl's Tower south of Falador"
+      "location": "Armadyl's Tower"
     },
 
     "isaura": {
       "id": "isaura",
       "name": "Isaura",
-      "location": "Black Knights' Base in Taverly Dungeon"
+      "location": "Black Knights' Base"
     },
 
     "giles": {
       "id": "giles",
       "name": "Giles",
-      "location": "Anachronia"
+      "location": "Anachronia Camp"
     },
 
     "general_wartface": {
@@ -63,7 +63,7 @@
     "eblis": {
       "id": "eblis",
       "name": "Eblis",
-      "location": "Bandit Camp lodestone"
+      "location": "Bandit Camp Lodestone"
     },
 
     "chief_tess": {
@@ -75,7 +75,7 @@
     "jacques": {
       "id": "jacques",
       "name": "Art Critic Jacques",
-      "location": "Varrock Museum top floor"
+      "location": "Varrock Museum"
     }
   }
 }
